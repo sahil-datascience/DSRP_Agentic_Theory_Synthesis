@@ -1,0 +1,22 @@
+
+name: dsrp_metrics_foundational_vector_query
+
+description: >
+  Retrieve passages describing how models were evaluated, validated,
+  or assessed for performance in the study.
+
+query: >
+  Extract passages describing model evaluation, validation procedures,
+  goodness-of-fit statistics, diagnostic tests, predictive accuracy metrics,
+  cross-validation procedures, training/test split, confusion matrix,
+  ROC/AUC, RMSE, MSE, R2, precision, recall, F1 score, clustering validation,
+  topic coherence, silhouette score, or reinforcement learning reward metrics.
+
+  Also retrieve statements reporting statistical diagnostics such as
+  chi-square tests, likelihood ratio tests, AIC, BIC, residual analysis,
+  or reporting of effect sizes alongside p-values.
+
+  Focus only on evaluation procedures applied to the models used
+  in the current study.
+  
+k: 12

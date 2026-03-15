@@ -1,0 +1,24 @@
+
+name: data_preprocessing_transparency_vector_query
+
+description: >
+  Retrieve passages describing how data were prepared, cleaned, reduced, or transformed before modelling.
+
+query: >
+  Extract passages describing:
+  - data cleaning,
+  - missing value handling,
+  - noise removal,
+  - outlier treatment,
+  - feature selection,
+  - dimensionality reduction,
+  - sampling,
+  - preprocessing steps,
+  - normalization or scaling,
+  - encoding or discretization,
+  - data integration,
+  - feature engineering,
+  - transformation of raw data prior to modelling,
+  - descriptions of how raw data were prepared before analysis.
+
+k: 18

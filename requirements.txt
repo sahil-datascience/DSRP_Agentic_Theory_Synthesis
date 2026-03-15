@@ -1,0 +1,18 @@
+
+# Base dependencies
+pydantic
+dotenv
+ipywidgets
+
+# Agentic dependencies
+langchain
+langgraph
+
+# Chunker dependencies
+langchain_docling
+docling
+
+# llm specific dependencies
+langchain[antropic]
+langchain[openai]
+langchain[ollama]

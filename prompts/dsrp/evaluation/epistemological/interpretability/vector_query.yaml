@@ -1,0 +1,30 @@
+
+
+name: dsrp_interpretability_vector_query
+
+description: >
+  Retrieve passages describing model interpretability,
+  explainability techniques, transparency discussion,
+  or methods used to interpret model outputs.
+
+query: >
+  Extract passages discussing:
+
+  - model interpretability
+  - explainable AI methods
+  - feature importance
+  - model transparency
+  - explanation of model predictions
+  - black-box model concerns
+
+  Also retrieve passages describing:
+
+  - SHAP
+  - LIME
+  - Grad-CAM
+  - DeepLIFT
+  - Layer-wise relevance propagation
+  - counterfactual explanation
+  - causal interpretation
+
+k: 15

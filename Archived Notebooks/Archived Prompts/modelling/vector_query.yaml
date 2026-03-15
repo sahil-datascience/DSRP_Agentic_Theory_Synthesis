@@ -1,0 +1,58 @@
+
+name: dsrp_modelling_global_vector_query
+
+query: |
+  Retrieve sections describing the modelling approaches, analytical models,
+  algorithms, or computational techniques used in the study.
+
+  Focus on passages explaining:
+
+  - statistical modelling methods
+  - econometric models
+  - machine learning algorithms
+  - deep learning architectures
+  - predictive modelling approaches
+  - classification or regression models
+  - clustering or dimensionality reduction methods
+  - model training procedures
+  - model validation procedures
+
+  Also retrieve passages describing specialised modelling domains,
+  including:
+
+  - time-series forecasting methods
+  - natural language processing techniques
+  - sentiment analysis
+  - topic modelling
+  - spatial modelling or GIS-based analysis
+  - spatial regression or spatial autocorrelation
+  - network or graph analysis methods
+  - image, audio, or video analytics
+
+  Include passages discussing model evaluation such as:
+
+  - goodness-of-fit tests
+  - statistical diagnostics
+  - cross-validation
+  - training/test splits
+  - prediction accuracy metrics
+
+  Prioritise sections typically titled:
+
+  - Methodology
+  - Methods
+  - Data Analysis
+  - Analytical Framework
+  - Modelling Approach
+  - Model Development
+  - Statistical Analysis
+  - Machine Learning Model
+  - Algorithm Description
+  - Model Evaluation
+
+  Prefer passages from:
+  - Methodology
+  - Methods
+  - Data Analysis
+
+k: 20

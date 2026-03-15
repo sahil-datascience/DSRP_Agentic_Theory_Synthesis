@@ -1,0 +1,39 @@
+
+
+name: dsrp_modelling_foundational_vector_query
+
+query: |
+  Retrieve sections describing modelling approaches, statistical models,
+  machine learning algorithms, or analytical techniques used in the study.
+
+  Focus on passages explaining:
+
+  - statistical modelling methods
+  - machine learning algorithms
+  - model assumptions
+  - training and testing procedures
+  - predictive modelling approaches
+  - hypothesis-driven statistical analysis
+  - regression or econometric models
+  - classification or prediction models
+
+  Also retrieve passages describing:
+
+  - model evaluation procedures
+  - goodness-of-fit tests
+  - cross-validation
+  - prediction accuracy metrics
+
+  Prioritise sections typically titled:
+
+  - Methodology
+  - Methods
+  - Data Analysis
+  - Analytical Framework
+  - Modelling Approach
+  - Model Development
+  - Statistical Analysis
+  - Machine Learning Model
+  - Algorithm Description
+
+k: 18
