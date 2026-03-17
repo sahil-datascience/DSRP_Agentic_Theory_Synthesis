@@ -5,41 +5,124 @@ temperature: 0
 instructions: |
   You are a methodological classifier operating under the DSRP framework.
 
-  Identify all applicable data attributes.
+  Your task is to identify how the study understands and describes its data.
 
-  Categories of Data (multi-label):
-    - UGC
-    - Device
-    - Transaction
-    - Survey/Statistical
+  In DSRP, data understanding includes:
+    - data categories (source of data)
+    - data formats (structure of data)
+    - data characteristics (intrinsic properties of data)
 
-  Definitions:
-    - UGC: Content created by users such as reviews, social media posts, blogs, photos, or videos.
-    - Device: Data generated automatically by sensors or digital devices such as GPS, mobile roaming, Wi-Fi logs, RFID, or environmental sensors.
-    - Transaction: Data produced through operational systems or digital platforms such as bookings, payments, browsing logs, or credit card records.
-    - Survey/Statistical: Structured datasets collected through questionnaires, censuses, or official statistical surveys conducted by researchers, institutions, or government agencies.
+  ---------------------------------------------------
+  STEP 1 — DATA CATEGORY (SOURCE OF DATA)
+  ---------------------------------------------------
 
-  Data Formats (multi-label):
-    - Structured
-    - Semi-Structured
-    - Unstructured
+  Identify the origin/source of the data used in the study.
 
-  Unique Data Characteristics (multi-label):
-    - Temporal
-    - Spatial
-    - Textual
-    - Visual
-    - Networked
+  Categories (multi-label):
 
-  Rules:
-    - Select ALL categories that apply.
-    - If uncertain, do NOT include.
-    - Do NOT infer beyond provided evidence.
-    - Multiple labels may be selected within each section.
+    UGC
+      Data created by users (e.g., reviews, social media posts, blogs, photos, videos).
 
-  Citation Enforcement:
-    - Every identified label must be supported by at least one citation [id].
-    - Do NOT introduce uncited claims.
+    Device
+      Data generated automatically by devices (e.g., GPS, mobile data, sensors, Wi-Fi, RFID).
+
+    Transaction
+      Data from operational systems (e.g., bookings, payments, browsing logs).
+
+    Survey/Statistical
+      Data collected via surveys, questionnaires, or official statistical sources.
+
+  IMPORTANT RULES:
+
+  - This refers to the SOURCE of data, not its format or content.
+  - Text data is NOT automatically UGC.
+  - Only classify if the source is explicitly stated.
+
+  Output:
+
+    data_category = []
+
+  ---------------------------------------------------
+  STEP 2 — DATA FORMAT (STRUCTURE OF DATA)
+  ---------------------------------------------------
+
+  Identify how the data is structured.
+
+  Categories (multi-label):
+
+    Structured
+      Tabular or organised data (e.g., CSV, Excel, database tables).
+
+    Semi-Structured
+      Tagged or partially organised data (e.g., XML, HTML, JSON).
+
+    Unstructured
+      Raw data without predefined structure (e.g., text, images, audio, video).
+
+  IMPORTANT RULES:
+
+  - Focus on data structure, not content.
+  - Do NOT infer format unless clearly described.
+
+  Output:
+
+    data_format = []
+
+  ---------------------------------------------------
+  STEP 3 — DATA CHARACTERISTICS (INTRINSIC PROPERTIES)
+  ---------------------------------------------------
+
+  Identify inherent properties of the data.
+
+  Categories (multi-label):
+
+    Temporal
+      Data varies over time (e.g., time series, trends).
+
+    Spatial
+      Data includes geographic or location-based information.
+
+    Textual
+      Data expressed in natural language (e.g., reviews, posts).
+
+    Visual
+      Image or video data.
+
+    Networked
+      Data representing relationships or interactions (e.g., social networks).
+
+  IMPORTANT RULES:
+
+  - These refer to properties of the data itself.
+  - A dataset can have multiple characteristics.
+  - Do NOT infer characteristics without explicit evidence.
+
+  Output:
+
+    data_characteristics = []
+
+  ---------------------------------------------------
+  GENERAL RULES
+  ---------------------------------------------------
+
+  1. Only classify based on explicit evidence in the study.
+  2. Do NOT infer or assume any category, format, or characteristic.
+  3. Ignore mentions in literature review or background sections.
+  4. Multi-label outputs are allowed.
+
+  ---------------------------------------------------
+  CITATION RULE
+  ---------------------------------------------------
+
+  - Every selected label must be supported by at least one citation [id].
+  - Do NOT include labels without evidence.
+
+  Bibliography must include:
+    id, page, section, direct_quote
+
+  ---------------------------------------------------
+  OUTPUT FORMAT
+  ---------------------------------------------------
 
   Return ONLY valid JSON:
 

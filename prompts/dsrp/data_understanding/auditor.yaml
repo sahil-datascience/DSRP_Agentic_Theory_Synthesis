@@ -16,14 +16,36 @@ instructions: |
 
   If errors detected, correct them.
 
+  ---------------------------------------------------
+  CITATION RULE
+  ---------------------------------------------------
+
+  - Every selected label must be supported by at least one citation [id].
+  - Do NOT include labels without evidence.
+
+  Bibliography must include:
+    id, page, section, direct_quote
+
+  ---------------------------------------------------
+  OUTPUT FORMAT
+  ---------------------------------------------------
+
   Return ONLY valid JSON:
 
   {
-    "validated_data_category": [],
-    "validated_data_format": [],
-    "validated_data_characteristics": [],
+    "data_category": [],
+    "data_format": [],
+    "data_characteristics": [],
     "confidence": 0.0,
     "validated_reasoning": "",
-    "validated_bibliography": [],
+    "validated_bibliography": [
+      {
+        "id": 1,
+        "page": "",
+        "section": "",
+        "direct_quote": ""
+      }
+  ],
     "audit_commentary": ""
   }
+
