@@ -46,9 +46,29 @@ instructions: |
   Use the following categories:
 
     Inherently interpretable model
-      The study uses models that are naturally interpretable,
-      such as regression, decision trees, or rule-based approaches,
-      where relationships between variables are explicitly defined.
+      The study uses models or analytical approaches where outputs
+      are directly interpretable without requiring additional
+      explanation techniques.
+
+      This includes:
+
+      - Classical statistical models (e.g., regression, ANOVA)
+        where relationships between variables are explicitly estimated.
+
+      - Structured analytical models where interpretation is integral
+        to the method, such as:
+
+          • topic modelling (e.g., LDA), where topics are interpreted
+            based on word distributions
+
+          • network analysis, where relationships, centrality, or
+            community structures are analysed and interpreted
+
+          • rule-based or tree-based models
+
+      In such cases, interpretability is embedded in the modelling
+      approach itself, even if the term "interpretability" is not
+      explicitly used.
 
     Post-hoc explanation
       The study applies techniques to explain model behaviour,
@@ -77,14 +97,29 @@ instructions: |
 
   IMPORTANT RULE:
 
-  - For inherently interpretable models (e.g., regression, ANOVA, Cox models):
+    - For inherently interpretable models (including statistical models,
+    topic modelling, and interpretable network analysis):
 
-    If the study reports model coefficients, relationships,
-    hypothesis testing, or variable effects, classify as:
+    If the study reports interpretable outputs such as:
+
+      • coefficients or variable relationships
+      • hypothesis testing results
+      • topic descriptions or word distributions
+      • network structures, centrality, or communities
+
+    classify as:
 
       interpretability_approach = "Inherently interpretable model"
 
     even if the term "interpretability" is not explicitly used.
+
+    - Do NOT assume interpretability for:
+
+        • black-box machine learning models
+        • deep learning models
+        • graph embeddings or neural network-based methods
+
+      unless explicit explanation methods are reported.
 
 
   Output:
