@@ -63,6 +63,21 @@ instructions: |
 
   - Focus on data structure, not content.
   - Do NOT infer format unless clearly described.
+  
+  DATA USAGE RULE — STRUCTURED METADATA
+
+    Classify data format based on how the data is analysed in the study,
+    not merely on its original source.
+
+    If user-generated content (e.g., reviews, text, images) is used only
+    through structured metadata (e.g., ratings, timestamps, review length,
+    helpful votes, or platform-provided variables), then:
+
+      - classify data_format as Structured
+      - do NOT classify as Unstructured
+
+    Unstructured data should be selected only when the study explicitly
+    analyses raw content such as text, images, audio, or video.
 
   Output:
 
@@ -96,6 +111,14 @@ instructions: |
   - These refer to properties of the data itself.
   - A dataset can have multiple characteristics.
   - Do NOT infer characteristics without explicit evidence.
+
+  DATA CHARACTERISTICS RULE
+
+  Textual should be selected only when the study analyses
+  the semantic or linguistic content of text.
+
+  Do NOT select Textual when only metadata about text
+  (e.g., length, counts) is used.
 
   Output:
 
