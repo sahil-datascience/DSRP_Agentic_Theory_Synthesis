@@ -1,3 +1,7 @@
 
 # ignore environment variables file
 .env
+
+# Ignore 'Archived Notebooks' folder
+Archived Notebooks/
+

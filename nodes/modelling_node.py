@@ -83,7 +83,7 @@ def modelling_node(state: DSRPState):
     # =====================================================
 
     ml_json = {
-        "ml_learning_type": "not_applicable",
+        "ml_learning_type": [],
         "ml_problem_type": [],
         "deep_learning_used": False
     }

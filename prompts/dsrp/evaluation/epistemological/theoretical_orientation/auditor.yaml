@@ -20,8 +20,8 @@ instructions: |
   3. Implicit theory is not inferred without clear
      conceptual reasoning in the text.
 
-  4. The classification of research motivation and
-     contribution type is consistent with the evidence.
+  4. The classification of epistemological orientation and
+     primary research orientation is consistent with the evidence.
 
   If misclassification occurs, correct it.
 
@@ -45,11 +45,11 @@ instructions: |
   {
     "explicit_theory": "",
     "implicit_theory_detected": "",
-    "data_science_role": "",
-    "research_motivation": "",
-    "contribution_type": "",
+    "epistemological_orientation": "",
+    "primary_research_orientation": "",
     "confidence": 0.0,
     "validated_reasoning": "",
     "validated_bibliography": [],
     "audit_commentary": ""
   }
+

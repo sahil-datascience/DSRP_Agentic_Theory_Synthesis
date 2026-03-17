@@ -15,8 +15,8 @@ instructions: |
 
   If the foundational paradigm is "Classical Statistical Modelling", return:
 
-    ml_learning_type = [not_applicable]
-    ml_problem_type = [not_applicable]
+    ml_learning_type = []
+    ml_problem_type = []
     deep_learning_used = false
 
   --------------------------------------------------------------------
@@ -112,6 +112,12 @@ instructions: |
     BERT
     deep neural networks
 
+  Deep learning_used = true when neural architectures
+  are explicitly reported.
+
+  Do not infer deep learning from generic terms like 
+  "ChatGPT'", "AI model" or "advanced neural approach".
+
 
   --------------------------------------------------------------------
 
@@ -144,11 +150,6 @@ instructions: |
   Topic modelling counts as unsupervised learning when used as an
   analytical modelling step in the study.
 
-  Deep learning_used = true when neural architectures
-  are explicitly reported.
-
-  Do not infer deep learning from generic terms like 
-  "ChatGPT'", "AI model" or "advanced neural approach".
 
   -------------------------------------------------------------------------
 

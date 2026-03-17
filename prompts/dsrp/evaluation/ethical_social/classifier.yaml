@@ -63,6 +63,15 @@ instructions: |
     • ethical use of AI in tourism
     • risks of misinterpretation
 
+  IMPORTANT RULE:
+
+  Do NOT classify general managerial, economic, or policy implications
+  as societal impact.
+
+  Only classify "Yes" if the study explicitly reflects on ethical,
+  social, or societal consequences of its data-driven methods
+  (e.g., risks, harms, fairness, misuse, or broader societal effects).
+
   Output:
 
     societal_impact_discussed = Yes / No
@@ -71,16 +80,22 @@ instructions: |
   STEP 4 — OVERALL ETHICAL REFLECTION
   ---------------------------------------------------
 
-  Determine the overall level of ethical reflection.
+  Determine ethical_reflection_level based on the following rule:
 
-  High
-    multiple ethical dimensions discussed.
+  - High:
+      At least two of the following are "Yes":
+      privacy_protection_reported,
+      bias_fairness_considered,
+      societal_impact_discussed
 
-  Moderate
-    at least one ethical dimension mentioned.
+  - Moderate:
+      Exactly one of the above is "Yes"
 
-  Low
-    no ethical reflection.
+  - Low:
+      None are "Yes"
+
+  Do NOT use subjective judgement.
+  The level must be derived strictly from the above variables.
 
   ---------------------------------------------------
   CITATION RULE
