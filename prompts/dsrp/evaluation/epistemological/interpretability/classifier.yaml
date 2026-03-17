@@ -74,7 +74,18 @@ instructions: |
     - the model claimed to improve performance
 
   - Classify based only on explicitly reported evidence.
-  - Do NOT assume interpretability unless clearly described.
+
+  IMPORTANT RULE:
+
+  - For inherently interpretable models (e.g., regression, ANOVA, Cox models):
+
+    If the study reports model coefficients, relationships,
+    hypothesis testing, or variable effects, classify as:
+
+      interpretability_approach = "Inherently interpretable model"
+
+    even if the term "interpretability" is not explicitly used.
+
 
   Output:
 
@@ -88,16 +99,16 @@ instructions: |
   using the following rules:
 
     High transparency:
-      Interpretability is clearly addressed AND
-      either inherently interpretable models are used
-      OR post-hoc explanation methods are applied.
+      Interpretability is discussed AND
+      (inherently interpretable model OR post-hoc explanation used)
 
     Moderate transparency:
-      Interpretability is discussed,
-      but no clear method or approach is described.
+      Inherently interpretable model is used,
+      but interpretability is not explicitly discussed
 
     Low transparency:
-      Interpretability is not discussed.
+      Interpretability is not discussed AND
+      no interpretable approach is evident
 
   IMPORTANT RULE:
 
@@ -106,7 +117,7 @@ instructions: |
 
   Output:
 
-    model_transparency_level = High / Moderate / Low
+    model_transparency_level = ""
 
   ---------------------------------------------------
   CITATION RULE
