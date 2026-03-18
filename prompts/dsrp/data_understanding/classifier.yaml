@@ -111,6 +111,11 @@ instructions: |
   - These refer to properties of the data itself.
   - A dataset can have multiple characteristics.
   - Do NOT infer characteristics without explicit evidence.
+  - Do NOT classify Textual when text is generated as features from non-textual data (e.g., image labels) unless natural language content is analysed.
+  - Do NOT select Temporal when:
+      - data is collected over a time period but analysed statically
+      - timestamps are present but not used analytically
+      - time is only used as a filter (e.g., 2011–2020 dataset)
 
   DATA CHARACTERISTICS RULE
 
