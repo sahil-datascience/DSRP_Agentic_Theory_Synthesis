@@ -107,7 +107,7 @@ instructions: |
 
   If no validation procedure is mentioned:
 
-    validation_procedure = "Not reported"
+    validation_procedure = [Not reported]
 
   ---------------------------------------------------
   STEP 5 - EFFECT SIZE REPORTING
@@ -184,7 +184,7 @@ instructions: |
     "learning_type": [],
     "problem_type": [],
     "evaluation_metrics_present": "",
-    "validation_procedure": "",
+    "validation_procedure": [],
     "effect_size_reported": "",
     "assumption_checks_reported": "",
     "confidence": 0.0,

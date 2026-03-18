@@ -80,7 +80,7 @@ instructions: |
   5. Validation Procedure
 
   validation_procedure should briefly summarise the reported procedure,
-  or use "Not reported" when absent.
+  or use [Not reported] when absent.
 
   6. Effect Size and Assumption Checks
 
@@ -121,7 +121,7 @@ instructions: |
     "learning_type": [],
     "problem_type": [],
     "evaluation_metrics_present": "",
-    "validation_procedure": "",
+    "validation_procedure": [],
     "effect_size_reported": "",
     "assumption_checks_reported": "",
     "confidence": 0.0,
