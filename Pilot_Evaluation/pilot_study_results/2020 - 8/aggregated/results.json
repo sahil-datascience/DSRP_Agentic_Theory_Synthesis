@@ -1,0 +1,292 @@
+{
+  "paper_id": "2020 - 8",
+  "gatekeeper_decision": "Include",
+  "dsrp_outputs": {
+    "evaluation_ethical_social": {
+      "privacy_protection_reported": "No",
+      "bias_fairness_considered": "No",
+      "societal_impact_discussed": "No",
+      "ethical_reflection_level": "Low",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not report any safeguards for privacy or data protection, does not discuss any bias or fairness issues, and does not reflect on potential societal consequences. Therefore, all three criteria are 'No', leading to a low ethical reflection level.",
+      "validated_bibliography": [],
+      "audit_commentary": "The classifications are consistent with the evidence provided in the study."
+    },
+    "data_preprocessing": {
+      "validated_data_cleaning": {
+        "status": "Transparently Described",
+        "evidence_ids": [
+          1
+        ]
+      },
+      "validated_data_reduction": {
+        "status": "Not Reported",
+        "evidence_ids": []
+      },
+      "validated_data_transformation": {
+        "status": "Not Reported",
+        "evidence_ids": []
+      },
+      "confidence": 1.0,
+      "validated_reasoning": "The evidence explicitly describes the cleaning process, including the removal of punctuation, common words, and the use of stemming and lemmatization, which qualifies as a transparent description of data cleaning. There is no mention of data reduction or transformation.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "",
+          "direct_quote": "After cleaning of the text to remove punctuation, common words and inflectional forms (via stemming and lemmatization), we derived a frequency distribution for words and 2-grams (contiguous sequences of two words)."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "evaluation_interpretability": {
+      "interpretability_discussed": "Yes",
+      "interpretability_method": "Inherently interpretable model",
+      "model_transparency_level": "High transparency",
+      "confidence": 1.0,
+      "validated_reasoning": "The study discusses interpretability through the use of the Latent Dirichlet Allocation (LDA) model, which is inherently interpretable as it provides clear outputs such as lists of topics and associated words. This aligns with the high transparency classification, as the model's outputs are directly interpretable without the need for additional explanation techniques.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "",
+          "direct_quote": "The LDA is a generative statistical model for ensembles of discrete data (e.g. text collections). It uses a hierarchical Bayesian model to extract the latent, or hidden, topics present in a collection of documents and to model each document as a finite combination of the set of topics."
+        },
+        {
+          "id": 2,
+          "page": "6",
+          "section": "",
+          "direct_quote": "The outcomes of these algorithms are list of topics: each topic comes with a list of words associated, with a certain probability, to each topic."
+        },
+        {
+          "id": 3,
+          "page": "6",
+          "section": "",
+          "direct_quote": "The general idea of the technique is that a person who writes a document has certain topics in mind and uses words, with a certain probability, chosen from the pool of words characterizing that particular topic."
+        },
+        {
+          "id": 4,
+          "page": "10",
+          "section": "",
+          "direct_quote": "Table 3. Main (top 15) topics with their main components (top 10 words) discovered with the Latent Dirichlet allocation and Latent Semantic Indexing algorithms."
+        }
+      ],
+      "audit_commentary": "The classification is valid as the evidence supports the claims made regarding the interpretability of the LDA model and its high transparency level."
+    },
+    "research_question": {
+      "final_classification": "Exploratory",
+      "confidence": 0.9,
+      "validated_reasoning": "The paper primarily conducts a literature review and content analysis to identify relevant concepts and gaps in the existing literature on smart tourism development and management, which aligns with exploratory research. It aims to generate ideas and highlight patterns rather than test specific hypotheses or predict outcomes [1], [3]. Additionally, the simulation mentioned serves to illustrate the importance of technology in achieving better outcomes, further supporting the exploratory nature of the study [2].",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": 1,
+          "section": "Abstract",
+          "direct_quote": "The aim of this paper is to provide a critical analysis of the main literature contributions that concern smart tourism development and management, highlighting gaps and logical inconsistencies."
+        },
+        {
+          "id": 2,
+          "page": 1,
+          "section": "Abstract",
+          "direct_quote": "In addition, to further stress the importance of the issues at stake, a simulation is performed for showing how technology allows achieving better outcomes when a certain level of efficiency is obtained via re-engineering of main organizational and operational processes."
+        },
+        {
+          "id": 3,
+          "page": 5,
+          "section": "3. Materials and methods",
+          "direct_quote": "Section 3.1 contains a literature review of recent studies on smartness in tourism destinations; the review was performed as a content analysis to identify the most relevant and popular concepts related to smart tourism in existing scholarly works."
+        }
+      ],
+      "audit_commentary": "All claims in the reasoning explanation are cited, and citation numbers match the bibliography entries. No uncited claims are present, and the evidence supports the classification as exploratory research."
+    },
+    "evaluation_theoretical_orientation": {
+      "explicit_theory": "No",
+      "implicit_theory_detected": "Yes",
+      "epistemological_orientation": "Hybrid (data + theory)",
+      "primary_research_orientation": "Method-oriented research",
+      "confidence": 0.9,
+      "validated_reasoning": "The study does not explicitly state a named theory or framework guiding its research design, thus it is classified as 'No' for explicit theory. However, it demonstrates implicit theoretical reasoning by linking empirical patterns to social explanations and domain concepts, which justifies the classification of 'Yes' for implicit theory. The primary focus on methodological contributions, as indicated in the quotes, suggests a method-oriented research orientation.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": 12,
+          "section": "5.1 Theoretical implications",
+          "direct_quote": "The main contribution of this study is methodological. We have provided, with the analysis of three digital ecosystems and the simulation performed, a way to assess the relative importance and the role played by their physical and virtual components and shown how using state-of-the-art network analytic methods is possible to evaluate the extent to which one of the components influences the other."
+        },
+        {
+          "id": 2,
+          "page": 1,
+          "section": "Abstract",
+          "direct_quote": "The aim of this paper is to provide a critical analysis of the main literature contributions that concern smart tourism development and management, highlighting gaps and logical inconsistencies."
+        },
+        {
+          "id": 3,
+          "page": 1,
+          "section": "Abstract",
+          "direct_quote": "Apart from the methods used, relatively little explored, the authors show that, as also much of the computer science literature states, a fundamental prerequisite for successful ' smart ' projects is a logical and effective restructuring of the main operational and organizational processes."
+        },
+        {
+          "id": 4,
+          "page": 3,
+          "section": "2. Theoretical background",
+          "direct_quote": "At the same time, as underlined by Ivars-Baidal et al. (2017), the theoretical debate was articulated in different geographical areas in relation to the different development policies of STDs."
+        },
+        {
+          "id": 5,
+          "page": 9,
+          "section": "4.1 Content analysis",
+          "direct_quote": "This strongly confirms our impression that existing literature seems to ignore, or at least to consider just implicitly, the need of re-engineering the main processes related to the intra and inter-organizational dynamics, and does not fully judge this aspect as a precondition to obtain effective outcomes from the spreading of technology in a destination."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "data_understanding": {
+      "data_category": [
+        "UGC",
+        "Survey/Statistical",
+        "Transaction"
+      ],
+      "data_format": [
+        "Structured",
+        "Semi-Structured"
+      ],
+      "data_characteristics": [
+        "Textual",
+        "Networked"
+      ],
+      "confidence": 0.9,
+      "validated_reasoning": "The study uses data from the Scopus database, which is a scholarly source (Survey/Statistical), and it also includes user-generated content (UGC) from various documentary sources and field interviews. The data is structured in terms of frequency distributions and networks, indicating a structured format, while the textual analysis suggests semi-structured data. The analysis of titles, abstracts, and keywords indicates a focus on textual content, and the mention of networks suggests a networked characteristic.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "",
+          "direct_quote": "The Scopus database was interrogated using ' smart AND tour * AND destination ' as search terms for titles and abstracts."
+        },
+        {
+          "id": 4,
+          "page": "6",
+          "section": "",
+          "direct_quote": "Titles, abstracts and keywords were examined with standard textual analysis techniques, implemented through scripts using the Natural Language Tool Kit (Bird et al. , 2009), Gensim (Rehurek and Sojka, 2010) and Scikit-learn (Pedregosa et al. , 2011) Python packages."
+        },
+        {
+          "id": 8,
+          "page": "6",
+          "section": "",
+          "direct_quote": "All data regarding these networks were obtained by combining different documentary sources complemented with field interviews to informants and a crawling of the destinations' Web spaces."
+        },
+        {
+          "id": 7,
+          "page": "6",
+          "section": "",
+          "direct_quote": "The networks represent three Italian destinations: the Elba Island, a known marine destination belonging to the Tuscany region, Livigno, a northern Italian mountain area in Lombardy and the marine region of Costa Smeralda -Gallura in Sardinia."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "modelling": {
+      "foundational_paradigm": "Machine Learning",
+      "ml_learning_type": [
+        "Unsupervised Learning"
+      ],
+      "ml_problem_type": [
+        "clustering"
+      ],
+      "deep_learning_used": false,
+      "specialised_paradigms": [
+        "Natural Language Processing"
+      ],
+      "confidence": 0.9,
+      "validated_reasoning": "The study employs topic modeling techniques such as Latent Dirichlet Allocation (LDA) and Latent Semantic Indexing (LSI), which are algorithmic approaches focused on pattern discovery from data. The use of stochastic algorithms and generative statistical models indicates a strong emphasis on predictive performance and pattern recognition rather than hypothesis testing or inference, aligning with the characteristics of Machine Learning [1][2][3][4]. The evidence indicates the use of topic modeling techniques, specifically LDA and LSI, which are both methods for discovering hidden patterns in unlabelled datasets. This aligns with the definition of unsupervised learning and the task of clustering, as these methods aim to identify groups of similar observations based on the topics present in the text data. No deep learning architectures are mentioned in the evidence provided. Additionally, the study's focus on topic modeling aligns with Natural Language Processing, while the mention of a network analytic approach is not sufficiently supported by the evidence to be included as a specialised paradigm.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "JHTT",
+          "direct_quote": "We then applied a stochastic algorithm for topic modeling. The general idea of the technique is that a person who writes a document has certain topics in mind and uses words, with a certain probability, chosen from the pool of words characterizing that particular topic."
+        },
+        {
+          "id": 2,
+          "page": "6",
+          "section": "JHTT",
+          "direct_quote": "Among the many possible modelling algorithms, we chose the Latent Dirichlet allocation (LDA) and Latent Semantic Indexing (LSI) as they are consistently mentioned as the most reliable."
+        },
+        {
+          "id": 3,
+          "page": "6",
+          "section": "JHTT",
+          "direct_quote": "The LDA is a generative statistical model for ensembles of discrete data (e.g. text collections). It uses a hierarchical Bayesian model to extract the latent, or hidden, topics present in a collection of documents and to model each document as a finite combination of the set of topics."
+        },
+        {
+          "id": 4,
+          "page": "6",
+          "section": "JHTT",
+          "direct_quote": "LSI is an indexing method based on a mathematical technique called singular value decomposition (SVD). SVD is used to identify patterns in the relationships between the terms and concepts contained in a collection of text."
+        },
+        {
+          "id": 5,
+          "page": "1",
+          "section": "Abstract",
+          "direct_quote": "In addition, to further stress the importance of the issues at stake, a simulation is performed for showing how technology allows achieving better outcomes when a certain level of efficiency is obtained via re-engineering of main organizational and operational processes."
+        },
+        {
+          "id": 6,
+          "page": "2",
+          "section": "JHTT",
+          "direct_quote": "本 论 文 采 用 内 容 分 析 法 , 并 /uni501F 助 机 器 学 习 /uni5EFA 模 程 /uni5E8F 。"
+        },
+        {
+          "id": 7,
+          "page": "1",
+          "section": "Abstract",
+          "direct_quote": "A content analysis of recent relevant literature is performed with the help of machine learning topic modelling algorithms."
+        },
+        {
+          "id": 8,
+          "page": "1",
+          "section": "Abstract",
+          "direct_quote": "A network analytic approach to digital ecosystems, then, is used to study the relationship between technological tools and physical entities in a destination."
+        }
+      ],
+      "audit_commentary": "The inclusion of 'Network Analysis' as a specialised paradigm was not supported by sufficient evidence, thus it has been removed. The remaining classifications are consistent and supported by the evidence provided."
+    },
+    "evaluation_metrics": {
+      "evaluation_strategy": "Machine Learning Evaluation",
+      "learning_type": [
+        "Unsupervised Learning"
+      ],
+      "problem_type": [
+        "clustering"
+      ],
+      "evaluation_metrics_present": "Yes",
+      "validation_procedure": [
+        "Not reported"
+      ],
+      "effect_size_reported": "Not applicable",
+      "assumption_checks_reported": "Not applicable",
+      "confidence": 0.9,
+      "reasoning": "The study employs a Machine Learning foundational paradigm, specifically focusing on unsupervised learning for clustering tasks. It evaluates its models using metrics related to information and knowledge transfer efficiency, as indicated by the use of weighted shortest paths and clustering coefficients [1]. However, no specific validation procedure is reported in the evidence provided [2]. Effect size and assumption checks are not applicable in this context as the study is based on Machine Learning methods [3].",
+      "bibliography": [
+        {
+          "id": 1,
+          "page": "7",
+          "section": "JHTT",
+          "direct_quote": "For assessing the efficiency in information and knowledge transfer, a crucial element for that 'technology savviness' which profoundly affects the smartness of a region (see, e.g. GilGarcia et al., 2016), we used the metric recently suggested by Su et al. (2017). The authors recommend including in such metric not only the efficiency of the transfer between actors (operationalized as the weighted shortest path, or distance, between them, where the weight is an estimate of the cost in communicating) but also the weighted clustering coefficients (here representing the tendency to collaborate within the neighborhood) and the nodal characteristics (the AC)."
+        },
+        {
+          "id": 2,
+          "page": "12",
+          "section": "5.1 Theoretical implications",
+          "direct_quote": "The main contribution of this study is methodological. We have provided, with the analysis of three digital ecosystems and the simulation performed, a way to assess the relative importance and the role played by their physical and virtual components and shown how using state-of-the-art network analytic methods is possible to evaluate the extent to which one of the components influences the other."
+        },
+        {
+          "id": 3,
+          "page": "8",
+          "section": "JHTT",
+          "direct_quote": "An important feature of this method is in the consideration of the nodal characteristics (nodal weights) that usually are not present in standard network analytic procedures. Because we have no information about the characteristics of the different stakeholders, we assign as AC a value from 1 to 4 (1 = lowest) randomly drawn from a geometric distribution (the discrete version of an exponential distribution)."
+        }
+      ],
+      "audit_commentary": ""
+    }
+  }
+}

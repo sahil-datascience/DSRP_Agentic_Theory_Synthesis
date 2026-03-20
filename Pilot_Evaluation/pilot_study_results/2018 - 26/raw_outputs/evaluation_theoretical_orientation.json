@@ -1,0 +1,29 @@
+{
+  "explicit_theory": "Yes",
+  "implicit_theory_detected": "No",
+  "epistemological_orientation": "Theory-driven research",
+  "primary_research_orientation": "Knowledge-oriented research",
+  "confidence": 0.9,
+  "validated_reasoning": "The study explicitly references the Technology Acceptance Model (TAM) and the experience economy as guiding frameworks for understanding technology adoption in tourism, indicating a clear use of named theories. There is no evidence of implicit theoretical reasoning as the focus is on established theories rather than conceptual interpretations of results.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "2",
+      "section": "2. Digitization (1997 -2006)",
+      "direct_quote": "A clear lineage of literature was the applications of the Technology Acceptance Model (TAM) (Davis, 1989) and its derivatives to examine travelers' adoption and acceptance of tourism websites or other decision-making tools."
+    },
+    {
+      "id": 2,
+      "page": "3",
+      "section": "3. Age of acceleration (2007 -2016)",
+      "direct_quote": "However, research focusing on IT adoption and acceptance represented by the applications of the TAM-based models was, understandably, on the wane."
+    },
+    {
+      "id": 4,
+      "page": "2",
+      "section": "2. Digitization (1997 -2006)",
+      "direct_quote": "One of the dominant paradigms adopted by tourism scholars and marketers was the notion of the experience economy (Pine & Gilmore, 1999), which suggests that technology could play an indispensable role in the creation, staging and communication of meaningful experiences."
+    }
+  ],
+  "audit_commentary": ""
+}

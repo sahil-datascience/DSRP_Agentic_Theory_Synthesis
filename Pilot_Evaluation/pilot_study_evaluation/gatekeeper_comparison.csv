@@ -1,0 +1,11 @@
+Paper ID,Ground Truth,Agent Output,GT,Agent,Match
+2011 - 1,{'gatekeeper': 'exclude'},{'gatekeeper': 'exclude'},exclude,exclude,✅
+2018 - 8,{'gatekeeper': 'include'},{'gatekeeper': 'include'},include,include,✅
+2018 - 12,{'gatekeeper': 'exclude'},{'gatekeeper': 'include'},exclude,include,❌
+2018 - 26,{'gatekeeper': 'exclude'},{'gatekeeper': 'include'},exclude,include,❌
+2019 - 33,{'gatekeeper': 'include'},{'gatekeeper': 'include'},include,include,✅
+2020 - 8,{'gatekeeper': 'include'},{'gatekeeper': 'include'},include,include,✅
+2021 - 28,{'gatekeeper': 'include'},{'gatekeeper': 'include'},include,include,✅
+2021 - 56,{'gatekeeper': 'include'},{'gatekeeper': 'include'},include,include,✅
+2023 - 58,{'gatekeeper': 'include'},{'gatekeeper': 'include'},include,include,✅
+2024 - 99,{'gatekeeper': 'include'},{'gatekeeper': 'include'},include,include,✅

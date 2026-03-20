@@ -1,0 +1,172 @@
+{
+  "paper_id": "2018 - 26",
+  "gatekeeper_decision": "Include",
+  "dsrp_outputs": {
+    "evaluation_interpretability": {
+      "interpretability_discussed": "No",
+      "interpretability_method": "",
+      "model_transparency_level": "Low transparency",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not explicitly discuss interpretability, transparency, or explainability, and no interpretable approach is evident.",
+      "validated_bibliography": [],
+      "audit_commentary": "The classification is valid as there is no evidence supporting any interpretability claims."
+    },
+    "data_preprocessing": {
+      "validated_data_cleaning": {
+        "status": "Not Reported",
+        "justification": "Absence of evidence."
+      },
+      "validated_data_reduction": {
+        "status": "Not Reported",
+        "justification": "Absence of evidence."
+      },
+      "validated_data_transformation": {
+        "status": "Not Reported",
+        "justification": "Absence of evidence."
+      },
+      "confidence": 1.0,
+      "validated_reasoning": "There is no evidence provided to indicate any mention or description of data cleaning, data reduction, or data transformation.",
+      "validated_bibliography": [],
+      "audit_commentary": "All classifications are correctly marked as 'Not Reported' due to the absence of evidence."
+    },
+    "evaluation_ethical_social": {
+      "privacy_protection_reported": "No",
+      "bias_fairness_considered": "No",
+      "societal_impact_discussed": "No",
+      "ethical_reflection_level": "Low",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not report any safeguards for privacy or data protection, does not discuss any bias or fairness issues, and does not reflect on potential societal consequences. Therefore, all three criteria are 'No', leading to a low ethical reflection level.",
+      "validated_bibliography": [],
+      "audit_commentary": "The classifications are consistent with the evidence provided in the study."
+    },
+    "modelling": {
+      "foundational_paradigm": "Mixed",
+      "ml_learning_type": [],
+      "ml_problem_type": [],
+      "deep_learning_used": false,
+      "specialised_paradigms": [
+        "Natural Language Processing",
+        "Network Analysis"
+      ],
+      "confidence": 0.5,
+      "validated_reasoning": "The foundational paradigm is classified as Mixed due to the presence of both Natural Language Processing and Network Analysis. However, there is insufficient evidence to determine specific ML learning types or problem types, leading to a lower confidence level.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "3",
+          "section": "3. Age of acceleration (2007 -2016)",
+          "direct_quote": "Importantly, analytical tools, particularly those based on natural language processing, network analysis and machine learning, enabled researchers to process and analyze qualitative, unstructured data in unprecedented large quantities."
+        }
+      ],
+      "audit_commentary": "The foundational paradigm was inferred as Mixed based on the presence of multiple specialised paradigms. However, the lack of specific evidence for ML learning types and problem types necessitates a cautious approach, resulting in a confidence level of 0.5."
+    },
+    "research_question": {
+      "final_classification": "Descriptive",
+      "confidence": 0.9,
+      "validated_reasoning": "The dominant research question type is Descriptive as the essay provides an overview of research development in information technology and tourism over the last twenty years, summarizing characteristics and trends without formal hypothesis testing or prediction [1], [2]. The focus is on understanding and improving utilities for consumer communication and engagement, which aligns with descriptive analysis [5].",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "1",
+          "section": "A B S T R A C T",
+          "direct_quote": "This essay presents an overview of the research development over the last twenty years on information technology and tourism."
+        },
+        {
+          "id": 2,
+          "page": "1",
+          "section": "A B S T R A C T",
+          "direct_quote": "Knowledge development within each of these eras is examined in terms of the technological conditions, dominant paradigms, main research questions, and influential discipline and research approaches."
+        },
+        {
+          "id": 5,
+          "page": "2",
+          "section": "2. Digitization (1997 -2006)",
+          "direct_quote": "The main purpose of research was then to understand and improve its utilities for consumer communication and engagement and, thus, it was driven by the needs of tourism marketing and business opportunities."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "data_understanding": {
+      "data_category": [
+        "UGC",
+        "Device",
+        "Transaction"
+      ],
+      "data_format": [
+        "Semi-Structured",
+        "Unstructured"
+      ],
+      "data_characteristics": [
+        "Textual",
+        "Networked"
+      ],
+      "confidence": 0.9,
+      "validated_reasoning": "The study explicitly mentions various sources of data including online product reviews, social media posts, and web traffic data, which classify as UGC, Device, and Transaction. The data formats include semi-structured data from social media and unstructured data from qualitative sources. The characteristics include textual data from reviews and posts, and networked data from social media interactions.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "3",
+          "section": "3. Age of acceleration (2007 -2016)",
+          "direct_quote": "online product reviews, ratings, Twitter tweets and followings, Facebook postings and likes, and Instagram's geo-tagged photos), Web tra /uniFB03 c data, and social networking data, a /uniFB00 orded novel ways to construct new measures for travel behavior and to understand a range of research problems in the domains of market segmentation, customer relationship management, product design and strategic management."
+        },
+        {
+          "id": 2,
+          "page": "3",
+          "section": "3. Age of acceleration (2007 -2016)",
+          "direct_quote": "Importantly, analytical tools, particularly those based on natural language processing, network analysis and machine learning, enabled researchers to process and analyze qualitative, unstructured data in unprecedented large quantities."
+        },
+        {
+          "id": 3,
+          "page": "3",
+          "section": "3. Age of acceleration (2007 -2016)",
+          "direct_quote": "These data, such as search engine queries and rankings, user-generated contents (e.g.,"
+        }
+      ],
+      "audit_commentary": "All selected labels are supported by evidence, and citations match the bibliography entries. Multi-label logic is applied correctly, and there is no inference beyond extracted evidence."
+    },
+    "evaluation_theoretical_orientation": {
+      "explicit_theory": "Yes",
+      "implicit_theory_detected": "No",
+      "epistemological_orientation": "Theory-driven research",
+      "primary_research_orientation": "Knowledge-oriented research",
+      "confidence": 0.9,
+      "validated_reasoning": "The study explicitly references the Technology Acceptance Model (TAM) and the experience economy as guiding frameworks for understanding technology adoption in tourism, indicating a clear use of named theories. There is no evidence of implicit theoretical reasoning as the focus is on established theories rather than conceptual interpretations of results.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "2",
+          "section": "2. Digitization (1997 -2006)",
+          "direct_quote": "A clear lineage of literature was the applications of the Technology Acceptance Model (TAM) (Davis, 1989) and its derivatives to examine travelers' adoption and acceptance of tourism websites or other decision-making tools."
+        },
+        {
+          "id": 2,
+          "page": "3",
+          "section": "3. Age of acceleration (2007 -2016)",
+          "direct_quote": "However, research focusing on IT adoption and acceptance represented by the applications of the TAM-based models was, understandably, on the wane."
+        },
+        {
+          "id": 4,
+          "page": "2",
+          "section": "2. Digitization (1997 -2006)",
+          "direct_quote": "One of the dominant paradigms adopted by tourism scholars and marketers was the notion of the experience economy (Pine & Gilmore, 1999), which suggests that technology could play an indispensable role in the creation, staging and communication of meaningful experiences."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "evaluation_metrics": {
+      "evaluation_strategy": "Mixed Evaluation",
+      "learning_type": [],
+      "problem_type": [],
+      "evaluation_metrics_present": "No",
+      "validation_procedure": [
+        "Not reported"
+      ],
+      "effect_size_reported": "Not applicable",
+      "assumption_checks_reported": "Not applicable",
+      "confidence": 1.0,
+      "reasoning": "The foundational paradigm is Mixed, which leads to a Mixed Evaluation strategy. There is no evidence provided, indicating that no evaluation metrics are present. Additionally, no validation procedure is reported.",
+      "bibliography": [],
+      "audit_commentary": "The classification is consistent with the validation rules, but the learning_type and problem_type should be lists, even if empty, due to the Mixed paradigm."
+    }
+  }
+}

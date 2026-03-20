@@ -1,0 +1,250 @@
+{
+  "paper_id": "2023 - 58",
+  "gatekeeper_decision": "Include",
+  "dsrp_outputs": {
+    "evaluation_ethical_social": {
+      "privacy_protection_reported": "No",
+      "bias_fairness_considered": "No",
+      "societal_impact_discussed": "No",
+      "ethical_reflection_level": "Low",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not report any safeguards for privacy or data protection, does not discuss any bias or fairness issues, and does not reflect on potential societal consequences. Therefore, all three criteria are 'No', leading to a low ethical reflection level.",
+      "validated_bibliography": [],
+      "audit_commentary": "The classifications are consistent with the evidence provided in the study."
+    },
+    "data_preprocessing": {
+      "validated_data_cleaning": {
+        "status": "Not Reported",
+        "evidence_ids": []
+      },
+      "validated_data_reduction": {
+        "status": "Mentioned",
+        "evidence_ids": [
+          1,
+          4
+        ]
+      },
+      "validated_data_transformation": {
+        "status": "Not Reported",
+        "evidence_ids": []
+      },
+      "confidence": 0.8,
+      "validated_reasoning": "Data reduction is mentioned in the context of hyperparameter tuning and clustering methods, but there is no detailed description of the processes involved. Data cleaning and transformation are not reported.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "3.2. Topic modelling (LDA)",
+          "direct_quote": "Prior to performing LDA, hyperparameter (alpha and beta) tuning was conducted to improve the performance of topic modelling."
+        },
+        {
+          "id": 4,
+          "page": "5",
+          "section": "2.3. Application of machine learning in the place and destination study",
+          "direct_quote": "The recent research conducted by Li et al. (2018) used density-based spatial clustering of photos, dissimilarity index, spatial scan statistic and location-based tag cloud to demonstrate the spatial patterns that locals and tourists could overlap in the urban spaces using photos from Flickr."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "evaluation_interpretability": {
+      "interpretability_discussed": "Yes",
+      "interpretability_method": "Inherently interpretable model",
+      "model_transparency_level": "High transparency",
+      "confidence": 1.0,
+      "validated_reasoning": "The study explicitly discusses interpretability through the use of LDA as a topic-modelling technique, which is inherently interpretable. It provides insights into the underlying topics and assigns probabilities to each photo, making the model's outputs understandable and traceable. This is evidenced by the discussion of how LDA identifies topics and produces gamma values, which are directly interpretable outputs.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "3.2. Topic modelling (LDA)",
+          "direct_quote": "LDA is a topic-modelling technique that assumes the existence of a hidden structure consisting of a set of topics in the whole corpus of photos (Tirunillai & Tellis, 2014). It helps identify the underlying topics from a large number of photos by using the co-occurrence of labels in those photos."
+        },
+        {
+          "id": 2,
+          "page": "6",
+          "section": "3.2. Topic modelling (LDA)",
+          "direct_quote": "The LDA model also produces gamma values -a probability distribution over topics -of each photo. Each photo was assigned to its most probable gaze for further analysis."
+        },
+        {
+          "id": 3,
+          "page": "7",
+          "section": "4.1. Twelve gazes identified by LDA",
+          "direct_quote": "LDA modelling presented the dominant or representative labels within each gaze."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "research_question": {
+      "final_classification": "Exploratory",
+      "confidence": 0.9,
+      "validated_reasoning": "The study investigates various aspects of the tourist gaze in Bangkok, focusing on the topics of gaze, the influence of Western-centric imagery, and the portrayal of gaze dichotomies through photographs. This indicates an exploration of patterns and themes rather than formal hypothesis testing or prediction, aligning with the exploratory research type [1], [2].",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": 3,
+          "section": "KEYWORDS",
+          "direct_quote": "The study proposes to investigate: - (1) the focus (topics) of the gaze and the tourism space that different tourist groups and locals view in Bangkok; - (2) the influence that the Western-centric imagery has upon the Western tourist groups; - (3) the extent to which the gaze dichotomies have been portrayed from the photographs of tourists."
+        },
+        {
+          "id": 2,
+          "page": 7,
+          "section": "3.4. Visual content analysis (VCA) of the tourist gaze",
+          "direct_quote": "The emphasis of VCA in this study is to investigate the dichotomy of gazes; photos from the five topics (gazes) were selected reflecting the sociological view of gazer-gazee dichotomies."
+        }
+      ],
+      "audit_commentary": "All claims in the reasoning explanation are cited, and citation numbers match the bibliography entries. No uncited claims are present, and the evidence supports the classification as exploratory. The classification does not rely on machine learning or regression methods, thus no misclassification is detected."
+    },
+    "evaluation_theoretical_orientation": {
+      "explicit_theory": "Yes",
+      "implicit_theory_detected": "No",
+      "epistemological_orientation": "Theory-driven research",
+      "primary_research_orientation": "Knowledge-oriented research",
+      "confidence": 0.9,
+      "validated_reasoning": "The study clearly engages with explicit theory by discussing theoretical contributions related to the psychological and social dynamics of the gaze in visual tourism consumption. It uses established concepts to guide its analysis and findings, indicating a theory-driven approach. Additionally, the focus on advancing understanding of tourism phenomena suggests a knowledge-oriented research orientation.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "17",
+          "section": "5.1. Theoretical contribution",
+          "direct_quote": "This theoretical support is important as it re /uniFB02 ects the existing psychological and distal gaps between the gazer and gazee, drawn out from photography as a key medium that represents visual tourism consumption and the interpretation of host -guest relation via gaze."
+        },
+        {
+          "id": 2,
+          "page": "18",
+          "section": "5.1. Theoretical contribution",
+          "direct_quote": "Through the combination of methods, the study contributes to the literature in two important ways. Firstly, by applying Big Data and ML, the study is able to use rich data to classify the gazes and to identify similarities and di /uniFB00 erences between the Western gaze, Asian and locals, together with their spatial characteristics when they visited Bangkok."
+        },
+        {
+          "id": 3,
+          "page": "18",
+          "section": "5.1. Theoretical contribution",
+          "direct_quote": "Our /uniFB01 ndings are able to elaborate on those common Western colonial views on traditional exoticism together with the modern views towards Bangkok."
+        },
+        {
+          "id": 4,
+          "page": "18",
+          "section": "5.1. Theoretical contribution",
+          "direct_quote": "This current research provides empirical support on their observation."
+        },
+        {
+          "id": 5,
+          "page": "3",
+          "section": "KEYWORDS",
+          "direct_quote": "Thus far, the majority of research relating to the tourist gaze applied traditional research methods for investigation, e.g. in-depth interviews, whereas the research scarcely incorporated photos as an emblem of objecti /uniFB01 ed gazes."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "data_understanding": {
+      "data_category": [
+        "UGC"
+      ],
+      "data_format": [
+        "Semi-Structured"
+      ],
+      "data_characteristics": [
+        "Spatial",
+        "Visual"
+      ],
+      "confidence": 0.9,
+      "validated_reasoning": "The study uses user-generated content (UGC) in the form of photos shared by users, which is explicitly mentioned in the evidence. The data format is classified as semi-structured because the photos likely come with metadata (e.g., user information, timestamps) that is not fully structured. The spatial characteristic is supported by the analysis of associations between user regions and locations, while the visual characteristic is evident as the data consists of photos.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "3.3. Analyses of the tourist gazes",
+          "direct_quote": "To analyse the gazes of tourists, photos were separated on the basis of the user ' s region of residence ( region henceforth). The region was specified on the basis of the user ' s reported country of residence."
+        },
+        {
+          "id": 3,
+          "page": "6",
+          "section": "3.3. Analyses of the tourist gazes",
+          "direct_quote": "A spatial analysis was performed to illustrate the associations between user ' s region and locations in Bangkok."
+        },
+        {
+          "id": 4,
+          "page": "10",
+          "section": "A photo sample",
+          "direct_quote": "Photo sources: Water: https://www. /uniFB02 ickr.com/photos/151639852@N07/47114430602; Interior: https://www. /uniFB02 ickr.com/photos/ 36749444@N06/40717339370; Temple: https://www. /uniFB02 ickr.com/photos/36856587@N00/8360127460; Air Travel: https://www. /uniFB02 ickr.com/photos/76052339@N05/15370653448; Food: https://www. /uniFB02 ickr.com/photos/82365211@N00/9094526726; Vehicle: https://www. /uniFB02 ickr.com/photos/28842017@N00/5591910313; People: https://www. /uniFB02"
+        },
+        {
+          "id": 5,
+          "page": "5",
+          "section": "2.3. Application of machine learning in the place and destination study",
+          "direct_quote": "the photo-sharing depositories can be used to generate interesting and unrevealed spatial patterns (Li et al., 2018) derived from the photos of places, cities or countries to provide other insights into the related fields."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "modelling": {
+      "foundational_paradigm": "Mixed",
+      "ml_learning_type": [],
+      "ml_problem_type": [],
+      "deep_learning_used": false,
+      "specialised_paradigms": [
+        "Natural Language Processing"
+      ],
+      "confidence": 0.8,
+      "validated_reasoning": "The study employs both topic modelling using LDA, which is a machine learning approach focused on pattern discovery, and statistical analysis through the computation of odds ratios, which aligns with classical statistical modelling. The combination of these methods indicates a mixed approach, as both paradigms are utilized within the same research design [1][2][5]. The topic modelling (LDA) is correctly classified under Natural Language Processing as it analyzes textual data. However, the classification of 'Emerging Paradigms' was removed as it was not supported by the evidence of methods applied in the study.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "3.2. Topic modelling (LDA)",
+          "direct_quote": "LDA was performed with 5 random starts and the best model was selected on the bases of the highest posterior likelihood (Tirunillai & Tellis, 2014)."
+        },
+        {
+          "id": 2,
+          "page": "6",
+          "section": "3.2. Topic modelling (LDA)",
+          "direct_quote": "Prior to performing LDA, hyperparameter (alpha and beta) tuning was conducted to improve the performance of topic modelling (Panichella, 2021)."
+        },
+        {
+          "id": 3,
+          "page": "6",
+          "section": "3.3. Analyses of the tourist gazes",
+          "direct_quote": "To analyse the gazes of tourists, photos were separated on the basis of the user ' s region of residence ( region henceforth)."
+        },
+        {
+          "id": 4,
+          "page": "6",
+          "section": "3.3. Analyses of the tourist gazes",
+          "direct_quote": "A spatial analysis was performed to illustrate the associations between user ' s region and locations in Bangkok."
+        },
+        {
+          "id": 5,
+          "page": "6",
+          "section": "3.3. Analyses of the tourist gazes",
+          "direct_quote": "To analyse the associations, we computed the odds ratios using the following formula:"
+        }
+      ],
+      "audit_commentary": "The foundational paradigm is correctly identified as Mixed, and the reasoning for ML learning type and problem type being not applicable is justified based on the evidence provided. The validated bibliography maintains full traceability to the original evidence."
+    },
+    "evaluation_metrics": {
+      "evaluation_strategy": "Mixed Evaluation",
+      "learning_type": [],
+      "problem_type": [],
+      "evaluation_metrics_present": "Yes",
+      "validation_procedure": "[Not reported]",
+      "effect_size_reported": "Not applicable",
+      "assumption_checks_reported": "Not applicable",
+      "confidence": 0.9,
+      "reasoning": "The study employs a mixed evaluation strategy as it combines elements from both statistical and machine learning paradigms. It reports evaluation metrics such as interrater reliability using Krippendorfer's alpha coefficient [1] and the selection of the best model based on posterior likelihood in topic modeling [2]. However, specific learning types and problem types are not detailed in the evidence provided, and the validation procedure is not explicitly reported.",
+      "bibliography": [
+        {
+          "id": 1,
+          "page": 7,
+          "section": "3.4. Visual content analysis (VCA) of the tourist gaze",
+          "direct_quote": "The interrater reliability was carried out using Krippendorfer's alpha coefficient and produced an agreeable result of 0.812."
+        },
+        {
+          "id": 2,
+          "page": 6,
+          "section": "3.2. Topic modelling (LDA)",
+          "direct_quote": "LDA was performed with 5 random starts and the best model was selected on the bases of the highest posterior likelihood."
+        }
+      ],
+      "audit_commentary": "The classification was mostly correct, but the validation procedure was not reported in the evidence, so it has been set to [Not reported]. The learning_type and problem_type fields remain empty as they were not specified in the evidence."
+    }
+  }
+}

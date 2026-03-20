@@ -1,0 +1,35 @@
+{
+  "explicit_theory": "No",
+  "implicit_theory_detected": "Yes",
+  "epistemological_orientation": "Hybrid (data + theory)",
+  "primary_research_orientation": "Knowledge-oriented research",
+  "confidence": 0.9,
+  "validated_reasoning": "The study does not explicitly reference a named theory or framework guiding its research design, thus it does not have explicit theory. However, it demonstrates implicit theoretical reasoning by interpreting results in the context of online travel behavior and the influence of submission devices on review characteristics, indicating a conceptual understanding of the phenomena. The primary focus appears to be on advancing understanding of online review behaviors, which aligns with knowledge-oriented research.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "1",
+      "section": "2. Mobile online reviews",
+      "direct_quote": "We raise awareness of the role played by submission devices in online travel behaviour research and present implications for future research."
+    },
+    {
+      "id": 2,
+      "page": "3",
+      "section": "5. Conclusions and implications",
+      "direct_quote": "Consequently, scholars dealing with eWOM today are urged to take this phenomenon into account and to explicitly control for submission device in their analyses."
+    },
+    {
+      "id": 3,
+      "page": "3",
+      "section": "5. Conclusions and implications",
+      "direct_quote": "This research exposes important nuances in reviewing behaviours in terms of polarity and length of reviews."
+    },
+    {
+      "id": 4,
+      "page": "1",
+      "section": "1. Introduction",
+      "direct_quote": "The purpose of this work is, first, to raise awareness regarding the relevance of the review submission device when interpreting online review-related findings."
+    }
+  ],
+  "audit_commentary": "The assessment is consistent with the evidence provided. The implicit theory is appropriately identified, and the classifications of epistemological and primary research orientations align with the evidence cited."
+}

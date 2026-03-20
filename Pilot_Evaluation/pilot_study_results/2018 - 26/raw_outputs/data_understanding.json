@@ -1,0 +1,38 @@
+{
+  "data_category": [
+    "UGC",
+    "Device",
+    "Transaction"
+  ],
+  "data_format": [
+    "Semi-Structured",
+    "Unstructured"
+  ],
+  "data_characteristics": [
+    "Textual",
+    "Networked"
+  ],
+  "confidence": 0.9,
+  "validated_reasoning": "The study explicitly mentions various sources of data including online product reviews, social media posts, and web traffic data, which classify as UGC, Device, and Transaction. The data formats include semi-structured data from social media and unstructured data from qualitative sources. The characteristics include textual data from reviews and posts, and networked data from social media interactions.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "3",
+      "section": "3. Age of acceleration (2007 -2016)",
+      "direct_quote": "online product reviews, ratings, Twitter tweets and followings, Facebook postings and likes, and Instagram's geo-tagged photos), Web tra /uniFB03 c data, and social networking data, a /uniFB00 orded novel ways to construct new measures for travel behavior and to understand a range of research problems in the domains of market segmentation, customer relationship management, product design and strategic management."
+    },
+    {
+      "id": 2,
+      "page": "3",
+      "section": "3. Age of acceleration (2007 -2016)",
+      "direct_quote": "Importantly, analytical tools, particularly those based on natural language processing, network analysis and machine learning, enabled researchers to process and analyze qualitative, unstructured data in unprecedented large quantities."
+    },
+    {
+      "id": 3,
+      "page": "3",
+      "section": "3. Age of acceleration (2007 -2016)",
+      "direct_quote": "These data, such as search engine queries and rankings, user-generated contents (e.g.,"
+    }
+  ],
+  "audit_commentary": "All selected labels are supported by evidence, and citations match the bibliography entries. Multi-label logic is applied correctly, and there is no inference beyond extracted evidence."
+}

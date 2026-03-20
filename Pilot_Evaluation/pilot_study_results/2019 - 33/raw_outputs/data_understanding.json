@@ -1,0 +1,34 @@
+{
+  "data_category": [
+    "UGC"
+  ],
+  "data_format": [
+    "Structured"
+  ],
+  "data_characteristics": [
+    "Textual"
+  ],
+  "confidence": 1.0,
+  "validated_reasoning": "The data is sourced from user-generated content (UGC) in the form of online reviews from Booking.com, as indicated by the scraping of reviews. The data is structured since it is analyzed in a way that allows for categorization and quantification (e.g., total number of reviews, division into mobile and desktop). The textual characteristic is present because the reviews contain natural language content, which is analyzed in the study.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "1",
+      "section": "2. Mobile online reviews",
+      "direct_quote": "We scraped the entire population of Booking.com ORs for hotels based in London (UK) over a two-year time frame (January 1, 2015 to December 31, 2016)."
+    },
+    {
+      "id": 2,
+      "page": "1",
+      "section": "2. Mobile online reviews",
+      "direct_quote": "We obtained a total of 1,217,002 reviews across 861 hotels."
+    },
+    {
+      "id": 4,
+      "page": "2",
+      "section": "4.2. Di /uniFB00 erences in mobile vs. desktop ORs",
+      "direct_quote": "Subsequently, we narrowed the sample to ORs with English texts (N = 475,462) and again divided it into desktop ORs (N = 201,549) and mobile ORs (N = 273,913)."
+    }
+  ],
+  "audit_commentary": ""
+}

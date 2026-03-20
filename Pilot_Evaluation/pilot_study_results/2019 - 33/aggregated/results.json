@@ -1,0 +1,235 @@
+{
+  "paper_id": "2019 - 33",
+  "gatekeeper_decision": "Include",
+  "dsrp_outputs": {
+    "evaluation_ethical_social": {
+      "privacy_protection_reported": "No",
+      "bias_fairness_considered": "No",
+      "societal_impact_discussed": "No",
+      "ethical_reflection_level": "Low",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not report any safeguards for privacy or data protection, does not discuss any bias or fairness issues, and does not reflect on potential societal consequences. Therefore, all three criteria are 'No', leading to a low ethical reflection level.",
+      "validated_bibliography": [],
+      "audit_commentary": "The ethical classifications are consistent with the evidence provided in the study."
+    },
+    "evaluation_interpretability": {
+      "interpretability_discussed": "No",
+      "interpretability_method": "None reported",
+      "model_transparency_level": "Low transparency",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not provide any claims regarding interpretability, nor does it identify any XAI methods. The low transparency level is consistent with the absence of interpretability discussions or methods.",
+      "validated_bibliography": [],
+      "audit_commentary": "The classification is valid as there is no evidence supporting any interpretability claims."
+    },
+    "evaluation_theoretical_orientation": {
+      "explicit_theory": "No",
+      "implicit_theory_detected": "Yes",
+      "epistemological_orientation": "Hybrid (data + theory)",
+      "primary_research_orientation": "Knowledge-oriented research",
+      "confidence": 0.9,
+      "validated_reasoning": "The study does not explicitly reference a named theory or framework guiding its research design, thus it does not have explicit theory. However, it demonstrates implicit theoretical reasoning by interpreting results in the context of online travel behavior and the influence of submission devices on review characteristics, indicating a conceptual understanding of the phenomena. The primary focus appears to be on advancing understanding of online review behaviors, which aligns with knowledge-oriented research.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "1",
+          "section": "2. Mobile online reviews",
+          "direct_quote": "We raise awareness of the role played by submission devices in online travel behaviour research and present implications for future research."
+        },
+        {
+          "id": 2,
+          "page": "3",
+          "section": "5. Conclusions and implications",
+          "direct_quote": "Consequently, scholars dealing with eWOM today are urged to take this phenomenon into account and to explicitly control for submission device in their analyses."
+        },
+        {
+          "id": 3,
+          "page": "3",
+          "section": "5. Conclusions and implications",
+          "direct_quote": "This research exposes important nuances in reviewing behaviours in terms of polarity and length of reviews."
+        },
+        {
+          "id": 4,
+          "page": "1",
+          "section": "1. Introduction",
+          "direct_quote": "The purpose of this work is, first, to raise awareness regarding the relevance of the review submission device when interpreting online review-related findings."
+        }
+      ],
+      "audit_commentary": "The assessment is consistent with the evidence provided. The implicit theory is appropriately identified, and the classifications of epistemological and primary research orientations align with the evidence cited."
+    },
+    "data_understanding": {
+      "data_category": [
+        "UGC"
+      ],
+      "data_format": [
+        "Structured"
+      ],
+      "data_characteristics": [
+        "Textual"
+      ],
+      "confidence": 1.0,
+      "validated_reasoning": "The data is sourced from user-generated content (UGC) in the form of online reviews from Booking.com, as indicated by the scraping of reviews. The data is structured since it is analyzed in a way that allows for categorization and quantification (e.g., total number of reviews, division into mobile and desktop). The textual characteristic is present because the reviews contain natural language content, which is analyzed in the study.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "1",
+          "section": "2. Mobile online reviews",
+          "direct_quote": "We scraped the entire population of Booking.com ORs for hotels based in London (UK) over a two-year time frame (January 1, 2015 to December 31, 2016)."
+        },
+        {
+          "id": 2,
+          "page": "1",
+          "section": "2. Mobile online reviews",
+          "direct_quote": "We obtained a total of 1,217,002 reviews across 861 hotels."
+        },
+        {
+          "id": 4,
+          "page": "2",
+          "section": "4.2. Di /uniFB00 erences in mobile vs. desktop ORs",
+          "direct_quote": "Subsequently, we narrowed the sample to ORs with English texts (N = 475,462) and again divided it into desktop ORs (N = 201,549) and mobile ORs (N = 273,913)."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "research_question": {
+      "final_classification": "Inferential",
+      "confidence": 0.9,
+      "validated_reasoning": "The research discusses the need for additional empirical studies to test the generalizability of findings across different contexts and demographics, indicating a focus on hypothesis testing and statistical generalization beyond the dataset [1], [2], [3]. This aligns with the characteristics of inferential research, which aims to test hypotheses and draw conclusions that extend beyond the immediate data. The mention of differences in eWOM valence and the implications for future research further supports this classification [5], [6].",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "3",
+          "section": "5. Conclusions and implications",
+          "direct_quote": "Consequently, additional empirical research is needed to test if the findings can be generalised to other destinations/ countries and other types of products (e.g. restaurants or attractions) and hold for other platforms."
+        },
+        {
+          "id": 2,
+          "page": "3",
+          "section": "5. Conclusions and implications",
+          "direct_quote": "It would also be interesting to understand if the differences detected vary across demographics, different lengths of stay at the hotel, and country of origin of the reviewer and language used for reviewing."
+        },
+        {
+          "id": 3,
+          "page": "3",
+          "section": "5. Conclusions and implications",
+          "direct_quote": "This should be tested in future research."
+        },
+        {
+          "id": 5,
+          "page": "3",
+          "section": "5. Conclusions and implications",
+          "direct_quote": "Consequently, scholars dealing with eWOM today are urged to take this phenomenon into account and to explicitly control for submission device in their analyses."
+        },
+        {
+          "id": 6,
+          "page": "3",
+          "section": "5. Conclusions and implications",
+          "direct_quote": "However, in contrast to these existing studies, we find that the valence of mobile eWOM is consistently higher than the valence of desktop eWOM."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "modelling": {
+      "foundational_paradigm": "Classical Statistical Modelling",
+      "ml_learning_type": [],
+      "ml_problem_type": [],
+      "deep_learning_used": false,
+      "specialised_paradigms": [],
+      "confidence": 0.9,
+      "validated_reasoning": "The study employs conventional statistical tests such as the Welch two samples t-test and the Mann-Whitney-Wilcoxon Test, which are indicative of hypothesis-driven modelling and focus on inference about the data-generating process. Additionally, the use of nonparametric kernel density estimators further supports the emphasis on statistical testing and interpretation of results, aligning with the characteristics of Classical Statistical Modelling [1][2]. No specialized paradigms were identified as the study did not apply any specific analytical methods corresponding to the classifications.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "2",
+          "section": "4.2. Differences in mobile vs. desktop ORs",
+          "direct_quote": "To compare ORs, we employed both conventional (Welch two samples t-test) and non-parametric (Mann-Whitney-Wilcoxon Test) statistical tests."
+        },
+        {
+          "id": 2,
+          "page": "2",
+          "section": "4.2. Differences in mobile vs. desktop ORs",
+          "direct_quote": "We employed nonparametric kernel density estimators to test if the sub-distribution of mobile OR ratings was significantly different from that of desktop ORs."
+        },
+        {
+          "id": 1,
+          "page": "1",
+          "section": "2. Mobile online reviews",
+          "direct_quote": "The data scraping and analysis were carried out using a web crawler developed in Python."
+        }
+      ],
+      "audit_commentary": "The foundational paradigm is consistent with the evidence provided, and no specialized paradigms were identified due to the lack of specific analytical methods."
+    },
+    "data_preprocessing": {
+      "validated_data_cleaning": {
+        "status": "Not Reported",
+        "justification": "Data cleaning is not mentioned in the provided evidence."
+      },
+      "validated_data_reduction": {
+        "status": "Mentioned",
+        "justification": "Data reduction is mentioned in the context of narrowing the sample to English texts and dividing it into desktop and mobile online reviews, but lacks detailed description."
+      },
+      "validated_data_transformation": {
+        "status": "Not Reported",
+        "justification": "Data transformation is not mentioned in the provided evidence."
+      },
+      "confidence": 0.0,
+      "validated_reasoning": "Data cleaning and transformation are not mentioned in the provided evidence. Data reduction is mentioned in the context of narrowing the sample to English texts and dividing it into desktop and mobile online reviews, but lacks detailed description.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "1",
+          "section": "2. Mobile online reviews",
+          "direct_quote": "We scraped the entire population of Booking.com ORs for hotels based in London (UK) over a two-year time frame (January 1, 2015 to December 31, 2016)."
+        },
+        {
+          "id": 2,
+          "page": "1",
+          "section": "2. Mobile online reviews",
+          "direct_quote": "The data scraping and analysis were carried out using a web crawler developed in Python."
+        },
+        {
+          "id": 3,
+          "page": "2",
+          "section": "4.2. Di /uniFB00 erences in mobile vs. desktop ORs",
+          "direct_quote": "Subsequently, we narrowed the sample to ORs with English texts (N = 475,462) and again divided it into desktop ORs (N = 201,549) and mobile ORs (N = 273,913)."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "evaluation_metrics": {
+      "evaluation_strategy": "Statistical Model Diagnostics",
+      "learning_type": [
+        "Not applicable"
+      ],
+      "problem_type": [
+        "Not applicable"
+      ],
+      "evaluation_metrics_present": "No",
+      "validation_procedure": "[Not reported]",
+      "effect_size_reported": "Not applicable",
+      "assumption_checks_reported": "Not applicable",
+      "confidence": 0.9,
+      "reasoning": "The study employs statistical tests such as the Welch two samples t-test and the Mann-Whitney-Wilcoxon Test to compare odds ratios (ORs), indicating a focus on statistical model diagnostics. However, there are no reported evaluation metrics, and no validation procedures are mentioned. Effect size and assumption checks are not applicable in this context due to the foundational paradigm being Classical Statistical Modelling.",
+      "bibliography": [
+        {
+          "id": 1,
+          "page": "2",
+          "section": "4.2. Di /uniFB00 erences in mobile vs. desktop ORs",
+          "direct_quote": "To compare ORs, we employed both conventional (Welch two samples t -test) and non-parametric (Mann-Whitney-Wilcoxon Test) statistical tests."
+        },
+        {
+          "id": 2,
+          "page": "2",
+          "section": "4.2. Di /uniFB00 erences in mobile vs. desktop ORs",
+          "direct_quote": "We employed nonparametric kernel density estimators to test if the sub-distribution of mobile OR ratings was significantly different from that of desktop ORs."
+        },
+        {
+          "id": 3,
+          "page": "2",
+          "section": "4.2. Di /uniFB00 erences in mobile vs. desktop ORs",
+          "direct_quote": "Specifically, we used the Tn-statistic proposed by Li, Maasoumi, and Racine (2009) and tests reported in Maasoumi and Racine (2002) to test if the sub-distribution was equal."
+        }
+      ],
+      "audit_commentary": ""
+    }
+  }
+}

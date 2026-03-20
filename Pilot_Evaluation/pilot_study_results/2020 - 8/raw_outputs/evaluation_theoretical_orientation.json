@@ -1,0 +1,41 @@
+{
+  "explicit_theory": "No",
+  "implicit_theory_detected": "Yes",
+  "epistemological_orientation": "Hybrid (data + theory)",
+  "primary_research_orientation": "Method-oriented research",
+  "confidence": 0.9,
+  "validated_reasoning": "The study does not explicitly state a named theory or framework guiding its research design, thus it is classified as 'No' for explicit theory. However, it demonstrates implicit theoretical reasoning by linking empirical patterns to social explanations and domain concepts, which justifies the classification of 'Yes' for implicit theory. The primary focus on methodological contributions, as indicated in the quotes, suggests a method-oriented research orientation.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": 12,
+      "section": "5.1 Theoretical implications",
+      "direct_quote": "The main contribution of this study is methodological. We have provided, with the analysis of three digital ecosystems and the simulation performed, a way to assess the relative importance and the role played by their physical and virtual components and shown how using state-of-the-art network analytic methods is possible to evaluate the extent to which one of the components influences the other."
+    },
+    {
+      "id": 2,
+      "page": 1,
+      "section": "Abstract",
+      "direct_quote": "The aim of this paper is to provide a critical analysis of the main literature contributions that concern smart tourism development and management, highlighting gaps and logical inconsistencies."
+    },
+    {
+      "id": 3,
+      "page": 1,
+      "section": "Abstract",
+      "direct_quote": "Apart from the methods used, relatively little explored, the authors show that, as also much of the computer science literature states, a fundamental prerequisite for successful ' smart ' projects is a logical and effective restructuring of the main operational and organizational processes."
+    },
+    {
+      "id": 4,
+      "page": 3,
+      "section": "2. Theoretical background",
+      "direct_quote": "At the same time, as underlined by Ivars-Baidal et al. (2017), the theoretical debate was articulated in different geographical areas in relation to the different development policies of STDs."
+    },
+    {
+      "id": 5,
+      "page": 9,
+      "section": "4.1 Content analysis",
+      "direct_quote": "This strongly confirms our impression that existing literature seems to ignore, or at least to consider just implicitly, the need of re-engineering the main processes related to the intra and inter-organizational dynamics, and does not fully judge this aspect as a precondition to obtain effective outcomes from the spreading of technology in a destination."
+    }
+  ],
+  "audit_commentary": ""
+}

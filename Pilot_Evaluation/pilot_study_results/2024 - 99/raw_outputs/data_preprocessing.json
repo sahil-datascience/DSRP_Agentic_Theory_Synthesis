@@ -1,0 +1,61 @@
+{
+  "validated_data_cleaning": {
+    "status": "Not Reported",
+    "justification": "No evidence provided for data cleaning."
+  },
+  "validated_data_reduction": {
+    "status": "Not Reported",
+    "justification": "No evidence provided for data reduction."
+  },
+  "validated_data_transformation": {
+    "status": "Mentioned",
+    "justification": "Data transformation is referenced in the context of updating decision metrics and the objective function, but lacks detailed descriptions."
+  },
+  "confidence": 0.8,
+  "validated_reasoning": "Data transformation is mentioned in the context of updating decision metrics and the objective function, but there are no detailed descriptions of the specific steps or processes involved. Data cleaning and reduction are not reported.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "6",
+      "section": "Optimization Preservation Model for Cultural Heritage",
+      "direct_quote": "A post-workshop survey for GUIS staff to assess the current values of historical significance and use potential for each historical structure using ArcGIS Survey 123."
+    },
+    {
+      "id": 2,
+      "page": "6",
+      "section": "Optimization Preservation Model for Cultural Heritage",
+      "direct_quote": "The available adaptation actions for cultural heritage at GUIS were also determined during the workshop."
+    },
+    {
+      "id": 3,
+      "page": "6",
+      "section": "Optimization Preservation Model for Cultural Heritage",
+      "direct_quote": "A two-day workshop with GUIS staff to introduce the purposes and dynamics of the OptiPres Model and explain the data needs for model updates for cultural heritage at GUIS."
+    },
+    {
+      "id": 4,
+      "page": "6",
+      "section": "Optimization Preservation Model for Cultural Heritage",
+      "direct_quote": "Two virtual meetings with GUIS staff to determine the annual decay rates of historical values and dynamics of adaptation actions for different types of cultural heritage at GUIS."
+    },
+    {
+      "id": 5,
+      "page": "6",
+      "section": "Optimization Preservation Model for Cultural Heritage",
+      "direct_quote": "The decision metrics for use potential were updated from static to dynamic; the weights for intangible use and tangible use potential were updated from static to dynamic depending on the structure condition."
+    },
+    {
+      "id": 6,
+      "page": "6",
+      "section": "Optimization Preservation Model for Cultural Heritage",
+      "direct_quote": "The objective function involves three main dimensions: (1) historical significance; (2) use potential (tangible and intangible use potential); and (3) vulnerability of coastal cultural heritage under a 1-meter sea-level rise climate change projection."
+    },
+    {
+      "id": 7,
+      "page": "6",
+      "section": "Optimization Preservation Model for Cultural Heritage",
+      "direct_quote": "The sub-attributes of the three dimensions: historical significance (association to fundamental purpose, condition of building, character, and national register), use potential (operational use, visitor use, third-party use, interpretive use, and scientific use), and vulnerability (exposure and sensitivity) were determined during the workshop."
+    }
+  ],
+  "audit_commentary": ""
+}

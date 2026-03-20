@@ -1,0 +1,17 @@
+{
+  "evaluation_strategy": "Machine Learning Evaluation",
+  "learning_type": [
+    "reinforcement"
+  ],
+  "problem_type": [
+    "reward optimisation"
+  ],
+  "evaluation_metrics_present": "No",
+  "validation_procedure": "[Not reported]",
+  "effect_size_reported": "Not applicable",
+  "assumption_checks_reported": "Not applicable",
+  "confidence": 1.0,
+  "reasoning": "The foundational paradigm is Machine Learning, which leads to the evaluation strategy being classified as 'Machine Learning Evaluation'. The learning type is reinforcement and the problem type is reward optimisation, as indicated in the modelling context. There is no evidence provided for evaluation metrics, and no validation procedure is reported.",
+  "bibliography": [],
+  "audit_commentary": "The classification is consistent with the provided modelling context and follows the validation rules."
+}

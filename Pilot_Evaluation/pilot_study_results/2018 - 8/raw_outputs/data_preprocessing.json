@@ -1,0 +1,65 @@
+{
+  "validated_data_cleaning": {
+    "status": "Not Reported",
+    "justification": "There is no evidence provided for data cleaning."
+  },
+  "validated_data_reduction": {
+    "status": "Transparently Described",
+    "evidence_ids": [
+      5,
+      6,
+      7
+    ]
+  },
+  "validated_data_transformation": {
+    "status": "Not Reported",
+    "justification": "There is no evidence provided for data transformation."
+  },
+  "confidence": 1.0,
+  "validated_reasoning": "Data reduction is transparently described through specific references to variable selection methods and the rationale for selecting a parsimonious model. However, there is no mention of data cleaning or data transformation.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "5",
+      "section": "3.1. Application",
+      "direct_quote": "For the RF application, it is based on the /uniFB01 rst stage in the combination of 500 classi /uniFB01 cation trees (based on 500 boostrap samples) and in the second stage in a similar way combining regression trees."
+    },
+    {
+      "id": 2,
+      "page": "5",
+      "section": "4. Results",
+      "direct_quote": "For the implementation of the models mentioned above, the original sample is partitioned into a training sample and a test sample."
+    },
+    {
+      "id": 3,
+      "page": "5",
+      "section": "4. Results",
+      "direct_quote": "The /uniFB01 rst one is obtained by simple sampling without replacement of 2/3 size of the original sample and the second is obtained as the di /uniFB00 erence between the /uniFB01 rst and the original sample."
+    },
+    {
+      "id": 4,
+      "page": "5",
+      "section": "4. Results",
+      "direct_quote": "Models are estimated with the training sample, and with the test sample the prediction error of the models is evaluated, that is, the validation of the model will be carried out from a new set of data, different from those obtained with the model."
+    },
+    {
+      "id": 5,
+      "page": "4",
+      "section": "3. Methodology",
+      "direct_quote": "When many explanatory variables are available, it is necessary to select variables to obtain a parsimonious model with high predictive power."
+    },
+    {
+      "id": 6,
+      "page": "4",
+      "section": "3. Methodology",
+      "direct_quote": "The subset selection methods (best subset, forward stepwise and backward stepwise selection) involve using least squares to /uniFB01 t a linear model that contains a subset of the predictors."
+    },
+    {
+      "id": 7,
+      "page": "4",
+      "section": "3. Methodology",
+      "direct_quote": "In this last, the selection of variables is performed using the Backward method in the two stages."
+    }
+  ],
+  "audit_commentary": ""
+}

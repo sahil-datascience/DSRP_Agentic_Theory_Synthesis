@@ -1,0 +1,9 @@
+{
+  "data_category": [],
+  "data_format": [],
+  "data_characteristics": [],
+  "confidence": 0.0,
+  "validated_reasoning": "The provided evidence does not explicitly mention any source of data, structure of data, or intrinsic properties of the data. It discusses updates to a model and decision metrics but does not provide specific information about the data used in the study.",
+  "validated_bibliography": [],
+  "audit_commentary": "No labels were assigned due to lack of supporting evidence. The bibliography entry does not support any specific data category, format, or characteristics."
+}

@@ -1,0 +1,41 @@
+{
+  "explicit_theory": "Yes",
+  "implicit_theory_detected": "No",
+  "epistemological_orientation": "Theory-driven research",
+  "primary_research_orientation": "Knowledge-oriented research",
+  "confidence": 0.9,
+  "validated_reasoning": "The study clearly engages with explicit theory by discussing theoretical contributions related to the psychological and social dynamics of the gaze in visual tourism consumption. It uses established concepts to guide its analysis and findings, indicating a theory-driven approach. Additionally, the focus on advancing understanding of tourism phenomena suggests a knowledge-oriented research orientation.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "17",
+      "section": "5.1. Theoretical contribution",
+      "direct_quote": "This theoretical support is important as it re /uniFB02 ects the existing psychological and distal gaps between the gazer and gazee, drawn out from photography as a key medium that represents visual tourism consumption and the interpretation of host -guest relation via gaze."
+    },
+    {
+      "id": 2,
+      "page": "18",
+      "section": "5.1. Theoretical contribution",
+      "direct_quote": "Through the combination of methods, the study contributes to the literature in two important ways. Firstly, by applying Big Data and ML, the study is able to use rich data to classify the gazes and to identify similarities and di /uniFB00 erences between the Western gaze, Asian and locals, together with their spatial characteristics when they visited Bangkok."
+    },
+    {
+      "id": 3,
+      "page": "18",
+      "section": "5.1. Theoretical contribution",
+      "direct_quote": "Our /uniFB01 ndings are able to elaborate on those common Western colonial views on traditional exoticism together with the modern views towards Bangkok."
+    },
+    {
+      "id": 4,
+      "page": "18",
+      "section": "5.1. Theoretical contribution",
+      "direct_quote": "This current research provides empirical support on their observation."
+    },
+    {
+      "id": 5,
+      "page": "3",
+      "section": "KEYWORDS",
+      "direct_quote": "Thus far, the majority of research relating to the tourist gaze applied traditional research methods for investigation, e.g. in-depth interviews, whereas the research scarcely incorporated photos as an emblem of objecti /uniFB01 ed gazes."
+    }
+  ],
+  "audit_commentary": ""
+}

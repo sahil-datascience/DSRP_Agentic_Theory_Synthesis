@@ -1,0 +1,207 @@
+{
+  "paper_id": "2024 - 99",
+  "gatekeeper_decision": "Include",
+  "dsrp_outputs": {
+    "evaluation_ethical_social": {
+      "privacy_protection_reported": "No",
+      "bias_fairness_considered": "No",
+      "societal_impact_discussed": "No",
+      "ethical_reflection_level": "Low",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not report any safeguards for privacy or data protection, does not discuss any bias or fairness issues, and does not reflect on potential societal consequences. Therefore, all three criteria are 'No', leading to a low ethical reflection level.",
+      "validated_bibliography": [],
+      "audit_commentary": "The classifications are consistent with the evidence provided in the study."
+    },
+    "data_understanding": {
+      "data_category": [],
+      "data_format": [],
+      "data_characteristics": [],
+      "confidence": 0.0,
+      "validated_reasoning": "The provided evidence does not explicitly mention any source of data, structure of data, or intrinsic properties of the data. It discusses updates to a model and decision metrics but does not provide specific information about the data used in the study.",
+      "validated_bibliography": [],
+      "audit_commentary": "No labels were assigned due to lack of supporting evidence. The bibliography entry does not support any specific data category, format, or characteristics."
+    },
+    "evaluation_interpretability": {
+      "interpretability_discussed": "No",
+      "interpretability_method": "None reported",
+      "model_transparency_level": "Low transparency",
+      "confidence": 1.0,
+      "validated_reasoning": "The study does not provide any discussion on interpretability or transparency regarding the OptiPres Model. There are no references to methods that would enhance interpretability, such as inherently interpretable models or post-hoc explanation techniques. Therefore, the classification of low transparency is valid.",
+      "validated_bibliography": [],
+      "audit_commentary": "The classification is accurate as the evidence does not support any claims of interpretability or transparency."
+    },
+    "research_question": {
+      "final_classification": "Causal",
+      "confidence": 0.8,
+      "validated_reasoning": "The study focuses on understanding the relationships between preservation actions and the conditions of cultural heritage assets, which aligns more closely with causal research questions rather than purely predictive ones. The reasoning explanation cites the use of models to forecast changes, but the primary aim appears to be establishing causal links rather than just predicting outcomes. The citation from the bibliography supports this interpretation, as it discusses adaptation paradigms rather than solely forecasting [4].",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "",
+          "section": "",
+          "direct_quote": ""
+        },
+        {
+          "id": 4,
+          "page": "16",
+          "section": "Practical Implications",
+          "direct_quote": "The OptiPres Models explore diverse adaptation paradigms that predict the temporal patterns of preservation and adaptation actions to be applied to different types of historic structures and forecast the changes in the condition and uses (both tangible and intangible) of each asset."
+        }
+      ],
+      "audit_commentary": "The initial classification as Predictive was incorrect as the focus on understanding causal relationships was more prominent than merely forecasting outcomes. The reasoning explanation and evidence provided support a Causal classification."
+    },
+    "data_preprocessing": {
+      "validated_data_cleaning": {
+        "status": "Not Reported",
+        "justification": "No evidence provided for data cleaning."
+      },
+      "validated_data_reduction": {
+        "status": "Not Reported",
+        "justification": "No evidence provided for data reduction."
+      },
+      "validated_data_transformation": {
+        "status": "Mentioned",
+        "justification": "Data transformation is referenced in the context of updating decision metrics and the objective function, but lacks detailed descriptions."
+      },
+      "confidence": 0.8,
+      "validated_reasoning": "Data transformation is mentioned in the context of updating decision metrics and the objective function, but there are no detailed descriptions of the specific steps or processes involved. Data cleaning and reduction are not reported.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "A post-workshop survey for GUIS staff to assess the current values of historical significance and use potential for each historical structure using ArcGIS Survey 123."
+        },
+        {
+          "id": 2,
+          "page": "6",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "The available adaptation actions for cultural heritage at GUIS were also determined during the workshop."
+        },
+        {
+          "id": 3,
+          "page": "6",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "A two-day workshop with GUIS staff to introduce the purposes and dynamics of the OptiPres Model and explain the data needs for model updates for cultural heritage at GUIS."
+        },
+        {
+          "id": 4,
+          "page": "6",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "Two virtual meetings with GUIS staff to determine the annual decay rates of historical values and dynamics of adaptation actions for different types of cultural heritage at GUIS."
+        },
+        {
+          "id": 5,
+          "page": "6",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "The decision metrics for use potential were updated from static to dynamic; the weights for intangible use and tangible use potential were updated from static to dynamic depending on the structure condition."
+        },
+        {
+          "id": 6,
+          "page": "6",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "The objective function involves three main dimensions: (1) historical significance; (2) use potential (tangible and intangible use potential); and (3) vulnerability of coastal cultural heritage under a 1-meter sea-level rise climate change projection."
+        },
+        {
+          "id": 7,
+          "page": "6",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "The sub-attributes of the three dimensions: historical significance (association to fundamental purpose, condition of building, character, and national register), use potential (operational use, visitor use, third-party use, interpretive use, and scientific use), and vulnerability (exposure and sensitivity) were determined during the workshop."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "evaluation_theoretical_orientation": {
+      "explicit_theory": "Yes",
+      "implicit_theory_detected": "No",
+      "epistemological_orientation": "Theory-driven research",
+      "primary_research_orientation": "Knowledge-oriented research",
+      "confidence": 1.0,
+      "validated_reasoning": "The study clearly engages with explicit theories, such as modern portfolio theory (MPT) and normative theory, guiding its research design and analysis. The focus on developing a climate adaptation planning framework indicates a primary orientation towards advancing understanding in the domain of sustainable tourism and cultural heritage.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "4",
+          "section": "Theoretical Background and Conceptual Framework",
+          "direct_quote": "To achieve these research objectives, our study integrates the MPT with an SDM process for multi-criteria decision analysis under the umbrella of the three-pillar sustainable tourism principles to a climate adaptation planning framework for cultural heritage over a 30-year planning horizon."
+        },
+        {
+          "id": 2,
+          "page": "4",
+          "section": "Theoretical Background and Conceptual Framework",
+          "direct_quote": "Guided by the normative theory, the structured decision making (SDM) model is often used to evaluate the trade-offs through the decision-making process."
+        },
+        {
+          "id": 3,
+          "page": "14",
+          "section": "Theoretical Implications",
+          "direct_quote": "Theoretically, our study advances modern portfolio theory (MPT) applications in sustainable climate adaptation planning for cultural heritage."
+        },
+        {
+          "id": 4,
+          "page": "15",
+          "section": "Theoretical Implications",
+          "direct_quote": "Our study highlights that the transformative and adaptive decision-making processes can diversify the long-term sustainability planning goals for cultural heritage preservation."
+        },
+        {
+          "id": 5,
+          "page": "4",
+          "section": "Theoretical Background and Conceptual Framework",
+          "direct_quote": "The MPT is an economic theory that estimates the expected benefits by a portfolio of assets based on its estimated composite benefits and by the covariances of each asset in the portfolio as the market positions fluctuate."
+        },
+        {
+          "id": 6,
+          "page": "2",
+          "section": "Corresponding Author:",
+          "direct_quote": "Theoretically, this study develops a climate adaptation planning framework to provide transformative, multi-objective, and long-term adaptation actions for cultural heritage assets, which advances the normative theory of decision and structured decision-making approach while incorporating the three pillars of sustainability."
+        }
+      ],
+      "audit_commentary": ""
+    },
+    "modelling": {
+      "foundational_paradigm": "Machine Learning",
+      "ml_learning_type": [
+        "reinforcement"
+      ],
+      "ml_problem_type": [
+        "reward optimisation"
+      ],
+      "deep_learning_used": false,
+      "specialised_paradigms": [],
+      "confidence": 0.9,
+      "validated_reasoning": "The evidence indicates that the OptiPres Model employs a machine learning algorithm, specifically a stochastic search algorithm (simulated annealing), to optimize decisions for targeted objectives. This aligns with the characteristics of machine learning, which focuses on prediction and pattern discovery from data, with minimal distributional assumptions and an emphasis on predictive performance. The use of terms like 'machine-learning algorithm' and 'optimized decisions' further supports this classification as it indicates a predictive modelling goal rather than hypothesis testing or inference typical of classical statistical modelling [1][2]. Additionally, the use of simulated annealing for optimization purposes aligns with reinforcement learning focused on maximizing cumulative reward, confirming the classification of the learning type as reinforcement learning. There is no indication of supervised or unsupervised learning types, nor any deep learning architectures being used. No specialised paradigms were identified as the study does not engage with the specified modelling categories.",
+      "validated_bibliography": [
+        {
+          "id": 1,
+          "page": "6",
+          "section": "OptiPres Model Objective Function and Machine Learning Algorithm",
+          "direct_quote": "the OptiPres Model uses a stochastic search algorithm: simulated annealing to identify the optimized decisions for the targeted objectives."
+        },
+        {
+          "id": 2,
+          "page": "5",
+          "section": "Optimization Preservation Model for Cultural Heritage",
+          "direct_quote": "The OptiPres Model provides quantitative and optimized decisions to achieve the desired objective by a machine-learning algorithm (simulated annealing algorithm)."
+        }
+      ],
+      "audit_commentary": "No inconsistencies were found across the layers. The foundational paradigm of Machine Learning is consistent with the reinforcement learning type and reward optimisation problem type. The absence of specialised paradigms is justified by the nature of the modelling evidence."
+    },
+    "evaluation_metrics": {
+      "evaluation_strategy": "Machine Learning Evaluation",
+      "learning_type": [
+        "reinforcement"
+      ],
+      "problem_type": [
+        "reward optimisation"
+      ],
+      "evaluation_metrics_present": "No",
+      "validation_procedure": "[Not reported]",
+      "effect_size_reported": "Not applicable",
+      "assumption_checks_reported": "Not applicable",
+      "confidence": 1.0,
+      "reasoning": "The foundational paradigm is Machine Learning, which leads to the evaluation strategy being classified as 'Machine Learning Evaluation'. The learning type is reinforcement and the problem type is reward optimisation, as indicated in the modelling context. There is no evidence provided for evaluation metrics, and no validation procedure is reported.",
+      "bibliography": [],
+      "audit_commentary": "The classification is consistent with the provided modelling context and follows the validation rules."
+    }
+  }
+}

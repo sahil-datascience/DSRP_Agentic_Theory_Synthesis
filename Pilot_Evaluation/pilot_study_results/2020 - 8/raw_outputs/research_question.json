@@ -1,0 +1,26 @@
+{
+  "final_classification": "Exploratory",
+  "confidence": 0.9,
+  "validated_reasoning": "The paper primarily conducts a literature review and content analysis to identify relevant concepts and gaps in the existing literature on smart tourism development and management, which aligns with exploratory research. It aims to generate ideas and highlight patterns rather than test specific hypotheses or predict outcomes [1], [3]. Additionally, the simulation mentioned serves to illustrate the importance of technology in achieving better outcomes, further supporting the exploratory nature of the study [2].",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": 1,
+      "section": "Abstract",
+      "direct_quote": "The aim of this paper is to provide a critical analysis of the main literature contributions that concern smart tourism development and management, highlighting gaps and logical inconsistencies."
+    },
+    {
+      "id": 2,
+      "page": 1,
+      "section": "Abstract",
+      "direct_quote": "In addition, to further stress the importance of the issues at stake, a simulation is performed for showing how technology allows achieving better outcomes when a certain level of efficiency is obtained via re-engineering of main organizational and operational processes."
+    },
+    {
+      "id": 3,
+      "page": 5,
+      "section": "3. Materials and methods",
+      "direct_quote": "Section 3.1 contains a literature review of recent studies on smartness in tourism destinations; the review was performed as a content analysis to identify the most relevant and popular concepts related to smart tourism in existing scholarly works."
+    }
+  ],
+  "audit_commentary": "All claims in the reasoning explanation are cited, and citation numbers match the bibliography entries. No uncited claims are present, and the evidence supports the classification as exploratory research."
+}

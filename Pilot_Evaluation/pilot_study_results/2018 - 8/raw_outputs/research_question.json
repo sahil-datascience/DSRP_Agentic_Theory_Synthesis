@@ -1,0 +1,20 @@
+{
+  "final_classification": "Causal",
+  "confidence": 0.9,
+  "validated_reasoning": "The study investigates the impact of socioeconomic and behavioral variables on individual spending, indicating a focus on identifying cause-effect relationships. The mention of a two-stage modeling strategy to first model the probability of spending and then the strictly positive spending supports the classification as causal, as it suggests an experimental or quasi-experimental design aimed at understanding causal relationships. All claims in the reasoning explanation are cited appropriately, and the citation numbers match the bibliography entries.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": 2,
+      "section": "A B S T R A C T",
+      "direct_quote": "The main research question deals with the study of the impact of a set of socioeconomic and behavioural variables on individual spending, applying an appropriate model in order to overcome multicollinearity and perform selection of regressors."
+    },
+    {
+      "id": 4,
+      "page": 2,
+      "section": "A B S T R A C T",
+      "direct_quote": "Due to the nature of this variable, we implement a two stages modeling strategy. In the first stage, we model the probability of spending, and in the second, the strictly positive spending."
+    }
+  ],
+  "audit_commentary": "No misclassification detected. The classification as Causal is appropriate based on the evidence provided."
+}

@@ -1,0 +1,32 @@
+{
+  "final_classification": "Causal",
+  "confidence": 0.9,
+  "validated_reasoning": "The study tests hypotheses about the relationships between national economies' responses to the pandemic and the performance of travel and leisure companies, as indicated by the use of Fama-MacBeth regressions to examine statistical importance and significance of variables [3], [5]. This aligns with the causal research type, which focuses on understanding the cause-and-effect relationships. Additionally, the authors propose a hypothesis regarding the impact of NPIs on panic and company performance, further supporting the causal classification [2].",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "2",
+      "section": "2. Theoretical basis: variable selection",
+      "direct_quote": "We verify how national economies can better respond to the pandemic."
+    },
+    {
+      "id": 2,
+      "page": "2",
+      "section": "2. Theoretical basis: variable selection",
+      "direct_quote": "We suppose that the more intensive the NPIs are implemented in a country, the less panic there would be about the pandemic, and the more stable travel and leisure companies' performance would be."
+    },
+    {
+      "id": 3,
+      "page": "4",
+      "section": "4. Methods",
+      "direct_quote": "We examine the statistical importance of particular characteristics with Fama-MacBeth (FM) regressions."
+    },
+    {
+      "id": 5,
+      "page": "5",
+      "section": "5. Empirical findings",
+      "direct_quote": "We analyze different combinations of these variables and find all of them significant in the multiple-interaction FM regressions."
+    }
+  ],
+  "audit_commentary": "The initial classification as 'Inferential' was incorrect. The study's focus on the impact of NPIs on panic and company performance indicates a causal relationship, thus the classification has been corrected to 'Causal'."
+}

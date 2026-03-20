@@ -1,0 +1,61 @@
+{
+  "validated_data_cleaning": {
+    "status": "Not Reported",
+    "justification": "Data cleaning is mentioned but lacks specific methods or detailed explanation."
+  },
+  "validated_data_reduction": {
+    "status": "Transparently Described",
+    "evidence_ids": [
+      4,
+      5,
+      6
+    ]
+  },
+  "validated_data_transformation": {
+    "status": "Transparently Described",
+    "evidence_ids": [
+      3
+    ]
+  },
+  "confidence": 1.0,
+  "validated_reasoning": "Data cleaning is not reported with sufficient detail on methods used, while data reduction and transformation are transparently described with clear steps and rationale.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "9",
+      "section": "Data and methodology",
+      "direct_quote": "After cleansing, we reviewed 2,600. After assigning a sentiment score, we summarized the daily sentiment scores versus the number of tweets."
+    },
+    {
+      "id": 2,
+      "page": "9",
+      "section": "Data and methodology",
+      "direct_quote": "The rooms in the PMS data were segmented into homogenous clusters within the initial learning algorithms."
+    },
+    {
+      "id": 3,
+      "page": "9",
+      "section": "Data and methodology",
+      "direct_quote": "Next, we standardized each attribute 's metrics and introduced them into the median algorithm 's hierarchical clustering."
+    },
+    {
+      "id": 4,
+      "page": "10",
+      "section": "Gradient boosting framework w/out social media",
+      "direct_quote": "By /uniFB01 netuning multiple iterations and investigating gains reported in the ML Importance Matrix, we /uniFB01 nalized half (25) of the independent variables."
+    },
+    {
+      "id": 5,
+      "page": "10",
+      "section": "Gradient boosting framework w/out social media",
+      "direct_quote": "We mitigated potential over /uniFB01 tting issues by reducing dimensionality in the data, as the gap in the RSME between the training and validation data set was minimized."
+    },
+    {
+      "id": 6,
+      "page": "7",
+      "section": "Data and methodology",
+      "direct_quote": "To overcome the above challenges, in addition to using regularization, we also leverage a hierarchical clustering method to reduce the data before the machine learning training is processed."
+    }
+  ],
+  "audit_commentary": "Data cleaning was misclassified as 'Mentioned' but should be 'Not Reported' due to lack of specific methods."
+}

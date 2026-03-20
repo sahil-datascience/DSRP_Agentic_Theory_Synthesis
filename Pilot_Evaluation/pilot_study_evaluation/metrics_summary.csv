@@ -1,0 +1,14 @@
+Field,Type,Samples,Accuracy,Precision,Recall,F1,Exact Match,Hamming Loss
+Gatekeeper,single,10,0.8000,0.8444,0.8000,0.7625,,
+Deep Learning Used,binary,6,1.0000,1.0000,1.0000,1.0000,,
+Privacy_protection_reported,binary,7,1.0000,1.0000,1.0000,1.0000,,
+bias_fairness_considered,binary,7,1.0000,1.0000,1.0000,1.0000,,
+research_question,single,7,0.5714,1.0000,0.5714,0.6905,,
+data_category,multi_label,10,,,,-,0.5000,0.2500
+data_format,multi_label,10,,,,-,0.4000,0.3333
+Foundational Paradigm,single,7,0.8571,0.8929,0.8571,0.8531,,
+epistemological_orientation,single,7,0.5714,0.8571,0.5714,0.5986,,
+interpretability_discussed,binary,7,0.2857,0.5714,0.2857,0.3810,,
+evaluation_metrics_present,binary,7,0.8571,0.8857,0.8571,0.8508,,
+data_characteristics,multi_label,10,,,,-,0.4000,0.2000
+ML Problem Type,multi_label,10,,,,-,0.7000,0.0600

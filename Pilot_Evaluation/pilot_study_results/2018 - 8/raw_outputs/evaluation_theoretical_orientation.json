@@ -1,0 +1,41 @@
+{
+  "explicit_theory": "Tourism Led Growth Hypothesis (TLGH)",
+  "implicit_theory_detected": "No",
+  "epistemological_orientation": "Theory-driven research",
+  "primary_research_orientation": "Knowledge-oriented research",
+  "confidence": 0.9,
+  "validated_reasoning": "The study explicitly references the Tourism Led Growth Hypothesis (TLGH) as a theoretical framework guiding the research, indicating a clear use of named theory. Additionally, the focus on understanding the determinants of individual tourist expenditure suggests a knowledge-oriented approach, as the methods serve to advance understanding rather than being the primary contribution.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "1",
+      "section": "1. Introduction",
+      "direct_quote": "This topic has been extensively studied in the so called Tourism Led Growth Hypothesis (TLGH), as is shown in recent review papers."
+    },
+    {
+      "id": 2,
+      "page": "2",
+      "section": "A B S T R A C T",
+      "direct_quote": "This paper contributes to the strand of the empirical literature on the determinants of individual tourist expenditure."
+    },
+    {
+      "id": 3,
+      "page": "4",
+      "section": "3. Methodology",
+      "direct_quote": "Following the reasoning of two-stage models, two methodologies will be applied in each stage: regression model with Lasso (Least Absolute Shrinkage and Selection Operator) penalty (Lasso) and Random Forest (RF)."
+    },
+    {
+      "id": 4,
+      "page": "2",
+      "section": "A B S T R A C T",
+      "direct_quote": "Brida, and Scuderi (2014) introduces the use of scad-elastic net in the assessment of the determinants of individual tourist spending."
+    },
+    {
+      "id": 5,
+      "page": "1",
+      "section": "1. Introduction",
+      "direct_quote": "The objective is to study the distribution of the total expenditure of cruise passengers in Uruguay, using data of the 2016 -2017 cruise season survey."
+    }
+  ],
+  "audit_commentary": "The theoretical orientation assessment is validated as the evidence corresponds to the theory applied in the study, and the claims in the reasoning explanation are supported by the evidence citations. No implicit theory is inferred without clear conceptual reasoning, and the classifications of epistemological and primary research orientations are consistent with the evidence."
+}

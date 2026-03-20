@@ -1,0 +1,41 @@
+{
+  "explicit_theory": "No",
+  "implicit_theory_detected": "Yes",
+  "epistemological_orientation": "Hybrid (data + theory)",
+  "primary_research_orientation": "Knowledge-oriented research",
+  "confidence": 0.9,
+  "validated_reasoning": "The study does not explicitly name a theory or framework guiding its research design, thus it does not meet the criteria for explicit theory. However, it demonstrates implicit theoretical reasoning by linking empirical patterns to broader conceptual understandings of tourism systems and the impact of big data on socio-cultural phenomena. This indicates a hybrid epistemological orientation. The primary focus appears to be on advancing understanding of tourism phenomena, suggesting a knowledge-oriented research orientation.",
+  "validated_bibliography": [
+    {
+      "id": 1,
+      "page": "6",
+      "section": "Concluding remarks",
+      "direct_quote": "Yet such a shift still needs to fulfill the basic component of a paradigm, i.e. the assumption and hypothesis of the view of the world (tourism system) and a related epistemology (theory and methodology)."
+    },
+    {
+      "id": 2,
+      "page": "5",
+      "section": "Big data and tourism geography methodological and paradigm issues",
+      "direct_quote": "Geographic understandings of spatial organization, spatial behavior and place theory can provide basic building blocks for the research, for example, on tourist crowding and congestion."
+    },
+    {
+      "id": 3,
+      "page": "5",
+      "section": "Big data and tourism geography methodological and paradigm issues",
+      "direct_quote": "The live (or near live) availability of some big data sources will require new mathematical models of tourism systems to match the fast data updates and feedbacks."
+    },
+    {
+      "id": 4,
+      "page": "4",
+      "section": "Big data and tourism geographic research issues",
+      "direct_quote": "big data-related socio-cultural phenomena, including how and to what extent big data changes socio-economic organizations related to tourism, and how traditional geographic topics and theories might shift with big data perspectives."
+    },
+    {
+      "id": 5,
+      "page": "5",
+      "section": "Big data and tourism geography methodological and paradigm issues",
+      "direct_quote": "big data largely changes human knowledge both in terms of our perception (and cognition) of the world, and in how we organize knowledge itself."
+    }
+  ],
+  "audit_commentary": ""
+}
