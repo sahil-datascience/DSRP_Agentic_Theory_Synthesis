@@ -107,7 +107,7 @@ instructions: |
 
   If no validation procedure is mentioned:
 
-    validation_procedure = [Not reported]
+    validation_procedure = ["Not reported"]
 
   ---------------------------------------------------
   STEP 5 - EFFECT SIZE REPORTING

@@ -80,7 +80,7 @@ instructions: |
   5. Validation Procedure
 
   validation_procedure should briefly summarise the reported procedure,
-  or use [Not reported] when absent.
+  or use ["Not reported"] when absent.
 
   6. Effect Size and Assumption Checks
 
