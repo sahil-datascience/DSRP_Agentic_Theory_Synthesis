@@ -7,3 +7,7 @@ Archived Notebooks/
 
 # Ignore __pycache__ folders
 __pycache__/
+
+# Ignore PDFs
+*.pdf
+*.PDF
