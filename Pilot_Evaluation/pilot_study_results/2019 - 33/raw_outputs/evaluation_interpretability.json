@@ -1,9 +1,0 @@
-{
-  "interpretability_discussed": "No",
-  "interpretability_method": "None reported",
-  "model_transparency_level": "Low transparency",
-  "confidence": 1.0,
-  "validated_reasoning": "The study does not provide any claims regarding interpretability, nor does it identify any XAI methods. The low transparency level is consistent with the absence of interpretability discussions or methods.",
-  "validated_bibliography": [],
-  "audit_commentary": "The classification is valid as there is no evidence supporting any interpretability claims."
-}
