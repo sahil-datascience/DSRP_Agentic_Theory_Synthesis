@@ -11,3 +11,7 @@ __pycache__/
 # Ignore PDFs
 *.pdf
 *.PDF
+
+# ignore vector database files
+*.bin
+*.sqlite3
