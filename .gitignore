@@ -15,3 +15,6 @@ __pycache__/
 # ignore vector database files
 *.bin
 *.sqlite3
+
+# ignore .JSONL files
+*.json
