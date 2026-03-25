@@ -18,3 +18,9 @@ __pycache__/
 
 # ignore .JSONL files
 *.json
+
+# ignor .venv folders
+.venv/
+
+# ingnore .vscode folders
+.vscode/

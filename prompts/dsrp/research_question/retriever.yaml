@@ -18,6 +18,16 @@ instructions: |
     - Experimental setup
     - Modelling goals (prediction vs explanation)
     - Statements about forecasting or causal inference
+    - optimisation objectives, decision-making goals, or policy recommendations
+    - explicit causal identification strategies (RCT, DiD, IV, RDD)
+    - treatment/control design
+    - Explicit evidence of predictive modelling, including:
+      - train/test split
+      - validation procedures
+      - prediction error metrics (RMSE, MAE, accuracy)
+      - model comparison based on predictive performance
+    - PRIORITISE extracting evidence related to model evaluation,
+      prediction performance, and validation over general descriptive or explanatory statements.
 
   Format as numbered evidence items.
 
