@@ -15,4 +15,5 @@ class DSRPState(TypedDict):
     collection_name: str
     persist_directory: str
     embedding_model: str
+    llm_model: NotRequired[str]
     gatekeeper: NotRequired[Dict[str, Any]]
