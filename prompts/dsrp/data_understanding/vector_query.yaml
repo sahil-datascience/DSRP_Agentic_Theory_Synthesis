@@ -16,7 +16,11 @@ query: >
   - raw text, images, videos,
   - time-series data,
   - geospatial data,
+  - geographic references used analytically (city, region, country, destination),
+  - comparisons between locations or destinations,
+  - origin-destination flows,
+  - geotag, GPS, latitude/longitude, coordinate, or map-based variables,
   - network or relational data,
   - preprocessing steps.
 
-k: 18
+k: 25
