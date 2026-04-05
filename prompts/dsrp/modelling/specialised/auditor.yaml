@@ -34,11 +34,17 @@ instructions: |
 
        geospatial modelling
          → Spatial Analytics
+       sub-district spatial analysis or hotspot mapping
+        → Spatial Analytics
 
        relational graph modelling
          → Network Analysis
 
        multimedia signal modelling
+         → Emerging Paradigms
+       image data analysed with computer vision (Vision AI)
+        → Emerging Paradigms
+       photos used as data
          → Emerging Paradigms
 
   --------------------------------------------------------------------
@@ -70,8 +76,26 @@ instructions: |
 
   4. CORRECTION RULE
 
-     If a specialised paradigm is unsupported or inconsistent
-     with the modelling evidence, remove it.
+     Specialised paradigms are INDEPENDENT modelling approaches.
+     Do NOT remove a paradigm simply because it is not the primary
+     focus or because it is not integrated with other paradigms.
+
+     ONLY remove a specialised paradigm if:
+
+       - The paradigm is NOT mentioned or referenced in the
+         modelling evidence, OR
+       - The evidence explicitly refutes the paradigm's application
+
+     If multiple specialised paradigms appear in evidence (e.g.,
+     both Natural Language Processing and Network Analysis), retain
+     ALL paradigms that have supporting evidence, regardless of
+     whether they integrate tightly together.
+
+     Example: A study using both LDA topic modeling (NLP) AND network
+     science to analyze relationships should classify BOTH "Natural
+     Language Processing" and "Network Analysis" as specialised
+     paradigms, even though they are applied to different aspects
+     of the data.
 
   --------------------------------------------------------------------
 
@@ -79,6 +103,8 @@ instructions: |
 
    - The validated_bibliography MUST preserve the full evidence objects.
    - Never reduce citations to only "id".
+  - Prefer a fuller validated bibliography trail: include 10-15 unique evidence objects when the study supports them.
+  - If fewer than 10 are supported, include all supported evidence objects.
    - Each bibliography item must contain:
 
    id

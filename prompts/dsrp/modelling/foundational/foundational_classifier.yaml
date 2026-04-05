@@ -56,6 +56,8 @@ instructions: |
       - Support vector machines
       - neural networks
       - gradient boosting
+      - classification trees
+      - logistic regression used as a predictive classifier
       - clustering algorithms
       - deep learning models
 
@@ -99,6 +101,8 @@ instructions: |
       - training/test data splits
       - cross-validation procedures
       - accuracy metrics such as accuracy, F1-score, RMSE
+      - algorithmic methods such as Elastic Net used for feature
+        selection and prediction of continuous outcomes
 
   4. Logistic regression may appear in both traditions.
      If it is used primarily for hypothesis testing or inference,
@@ -106,13 +110,26 @@ instructions: |
      If it is used as a predictive classifier within a machine
      learning pipeline, classify as Machine Learning.
 
+      Binary-outcome stages explicitly described as a
+      "Classification Step" or described as predicting whether
+      an event occurs (for example, whether a tourist will spend
+      or not) should be treated as predictive classification
+      when the study uses a classifier, classification tree, or
+      logit model for that stage.
+
+      Continuous-outcome stages explicitly predicting a numeric
+      target (for example weekly log-return, expenditure amount,
+      or other continuous dependent variables) should be treated
+      as predictive regression when Elastic Net, Random Forest,
+      or similar ML models are applied for prediction.
+
   5. Use "Mixed" when BOTH statistical models and machine learning
      models are applied in the study (even if they are compared
      rather than mathematically integrated).
 
   6. Do NOT classify specialised paradigms (NLP, TSA, Spatial etc).
 
-  7. Do NOT classify ML learning types (supervised, unsupervised, reinforcement).
+  7. Do NOT classify ML learning types (supervised, unsupervised, reinforcement, optimization-based).
 
   8. Every reasoning statement must cite supporting evidence using [id].
 

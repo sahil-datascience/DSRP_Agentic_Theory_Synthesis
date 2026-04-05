@@ -92,18 +92,47 @@ def modelling_node(state: DSRPState):
         "Machine Learning",
         "Mixed"
     ]:
-
-        ml_prompt = load_yaml_prompt(
+        ml_learning_prompt = load_yaml_prompt(
             f"{foundational_path}/ml_learning_classifier.yaml"
         )
 
-        ml_response = llm.invoke(
-            ml_prompt.format_messages(
+        ml_learning_response = llm.invoke(
+            ml_learning_prompt.format_messages(
                 input=json.dumps(evidence_json)
             )
         )
 
-        ml_json = parse_llm_json(ml_response.content)
+        ml_learning_json = parse_llm_json(ml_learning_response.content)
+
+        ml_problem_prompt = load_yaml_prompt(
+            f"{foundational_path}/ml_problem_classifier.yaml"
+        )
+
+        ml_problem_response = llm.invoke(
+            ml_problem_prompt.format_messages(
+                input=json.dumps(evidence_json)
+            )
+        )
+
+        ml_problem_json = parse_llm_json(ml_problem_response.content)
+
+        ml_json = {
+            "ml_learning_type": ml_learning_json.get("ml_learning_type", []),
+            "ml_problem_type": ml_problem_json.get("ml_problem_type", []),
+            "deep_learning_used": ml_learning_json.get("deep_learning_used", False),
+            "confidence": {
+                "learning": ml_learning_json.get("confidence", 0.0),
+                "problem": ml_problem_json.get("confidence", 0.0)
+            },
+            "reasoning_explanation": {
+                "learning": ml_learning_json.get("reasoning_explanation", ""),
+                "problem": ml_problem_json.get("reasoning_explanation", "")
+            },
+            "bibliography": {
+                "learning": ml_learning_json.get("bibliography", []),
+                "problem": ml_problem_json.get("bibliography", [])
+            }
+        }
 
     # =====================================================
     # 5️⃣ FOUNDATIONAL AUDIT

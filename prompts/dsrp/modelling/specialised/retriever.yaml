@@ -27,8 +27,14 @@ instructions: |
   • time-series forecasting models  
   • natural language processing methods  
   • spatial modelling techniques  
+  • sub-district spatial analysis  
+  • hotspot mapping or hotspot analysis  
   • network analysis methods  
   • image, audio, or video analytics  
+  • image data + computer vision (Vision AI)  
+  • photos used as data  
+  • photographs used as data  
+  • visual content analysis (VCA)  
 
   --------------------------------------------------------------------
   
@@ -67,6 +73,8 @@ instructions: |
   2. Do not interpret or classify methods.
   3. Preserve original wording as much as possible.
   4. Every extracted statement must include its citation ID.
+  5. Prefer a fuller evidence trail when the paper supports it: aim for 10-15 unique, non-duplicate evidence items rather than stopping at 5.
+  6. If fewer than 10 are genuinely supported, return all supported items without padding.
 
   Citation format example:
 

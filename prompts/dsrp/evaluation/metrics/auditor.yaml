@@ -44,6 +44,7 @@ instructions: |
   - Supervised
   - Unsupervised
   - Reinforcement
+  - Optimization-Based Learning
   - Not applicable
 
   Allowed problem_type values:
@@ -53,6 +54,7 @@ instructions: |
   - Clustering
   - Dimensionality Reduction
   - Reward Optimisation
+  - Optimisation
   - Not applicable
 
   Use modelling context as the default source for both values.

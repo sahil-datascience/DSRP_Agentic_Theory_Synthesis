@@ -21,6 +21,16 @@ instructions: |
   4. Classical Statistical Modelling is used when only statistical
      models are applied and no ML algorithms are present.
 
+  4a. Odds Ratio (OR) guardrail:
+     Do NOT validate Classical Statistical Modelling based only on
+     the presence of "odds ratio" or OR values.
+     Treat OR as evidence for classical inference only when the
+     evidence explicitly shows inferential use (for example:
+     hypothesis testing, p-values, statistical significance,
+     inferential confidence intervals, or explicit inferential
+     interpretation of OR).
+     Never imply hypothesis testing/inference from OR alone.
+
   5. ML learning type is consistent with the algorithms reported.
 
   6. ML problem type is logically consistent with the learning type.
@@ -29,7 +39,31 @@ instructions: |
 
         Supervised → classification or regression
         Unsupervised → clustering or dimensionality_reduction
-        Reinforcement → reward_optimisation
+        Reinforcement → reward optimisation
+        Optimization-Based Learning → reward optimisation
+
+       Classification guardrail:
+         If the study explicitly contains a binary classification stage,
+         a "Classification Step", or a classifier used to predict whether
+         an event occurs (for example, spend or not spend), validate the
+         problem type as classification even if another stage is regression.
+
+          Regression guardrail:
+             If the study explicitly predicts a continuous dependent variable
+             (for example weekly log-return, numeric expenditure, or demand
+             magnitude), validate regression as the problem type.
+
+             Elastic Net used for feature selection plus prediction of a
+             continuous target must validate as regression (or include
+             regression in multi-stage pipelines), not as classification.
+
+       Additional clustering guardrail:
+          - Hierarchical clustering (including BIRCH-like methods) used for
+             customer segmentation or homogeneous grouping must validate as
+             Unsupervised with problem type clustering.
+          - If clustering is used before supervised training, retain
+             Unsupervised + clustering rather than collapsing to only
+             the downstream supervised task.
 
   7. Deep learning flag is correct when neural architectures are present.
 

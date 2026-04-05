@@ -50,7 +50,7 @@ instructions: |
   A paper qualifies if it satisfies at least ONE of the following:
 
   1. Machine Learning / Algorithmic Modelling paradigm
-     (supervised, unsupervised, reinforcement, deep learning, algorithmic modelling)
+     (supervised, unsupervised, reinforcement, optimization-based, deep learning, algorithmic modelling)
      [Evidence must show: actual model training, performance metrics, or predictions]
 
   2. Large-scale data-intensive statistical modelling

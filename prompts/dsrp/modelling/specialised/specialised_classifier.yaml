@@ -72,6 +72,8 @@ instructions: |
   - spatial regression models
   - spatial autocorrelation (e.g., Moran’s I)
   - geographically weighted regression
+   - sub-district spatial analysis
+   - hotspot mapping or hotspot analysis
 
   IMPORTANT:
   The presence of location variables (e.g., country, destination, port)
@@ -108,6 +110,15 @@ instructions: |
   - image classification
   - video recognition
   - speech processing
+   - Vision AI
+   - photos used as data
+   - photographs used as data
+   - visual content analysis (VCA)
+   - image analysis
+
+   Strong cue:
+   - image or photo data analysed with computer vision (Vision AI)
+   - visual content analysis on photographs
 
 
   --------------------------------------------------------------------
@@ -139,6 +150,8 @@ instructions: |
 
    - The bibliography MUST preserve the full evidence objects.
    - Never reduce citations to only "id".
+   - Prefer a fuller bibliography trail: include 10-15 unique evidence objects when the study supports them.
+   - If fewer than 10 are supported, include all supported evidence objects.
    - Each bibliography item must contain:
 
    id
