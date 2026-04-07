@@ -19,6 +19,11 @@ instructions: |
 
   Do NOT catalogue individual metrics.
 
+  Only consider methods that generate model outputs requiring validation
+  (e.g., predictive models, probabilistic models).
+  Exclude descriptive statistics, spatial analysis, and qualitative
+  analysis from evaluation classification.
+
   ---------------------------------------------------
   STEP 1 - DETERMINE EVALUATION STRATEGY
   ---------------------------------------------------
@@ -88,6 +93,16 @@ instructions: |
 
   Determine whether the study reports any evaluation metrics at all.
 
+  DSRP Guardrail Instruction:
+
+  Only assign evaluation metrics when the study builds a model that
+  produces predictions or learned outputs requiring validation.
+
+  If the study relies solely on statistical tests (e.g., t-tests, ANOVA,
+  Mann-Whitney, kernel density comparisons) to examine group differences
+  or distributions, classify it as Statistical Model Diagnostics with no
+  evaluation metrics, even if significance values are reported.
+
   Examples include accuracy, precision, recall, F1 score, AUC, RMSE,
   MAE, MSE, R2, confusion matrix measures, goodness-of-fit statistics,
   topic coherence, forecasting error measures, or similar metrics.
@@ -102,10 +117,16 @@ instructions: |
 
   Look for:
 
-  - train/test split
-  - cross-validation
-  - hold-out dataset
-  - temporal split (for time-series)
+  - train/test split: one-time split into a training subset and a separate test subset
+    for final evaluation (e.g., 80/20 split); no repetition or rotation
+  - cross-validation: any repeated training/testing procedure involving multiple resampling
+    iterations of the dataset to evaluate model performance. 
+    (e.g., k-fold cross-validation, repeated random splits with multiple seeds,
+   or similar procedures that involve multiple rounds of training and testing on different data partitions)
+  - hold-out dataset: a reserved evaluation set not used in model fitting at all
+    (e.g., untouched external validation set or final test set kept separate from training process)
+  - temporal split: training on earlier time periods and testing on later
+    periods (e.g., out-of-time (OOT) test set)
 
   If no validation procedure is mentioned:
 
@@ -126,6 +147,11 @@ instructions: |
   If foundational paradigm = Machine Learning or Mixed:
 
       effect_size_reported = "Not applicable"
+
+  Label validity rule:
+  - "Not applicable" is allowed only for Machine Learning or Mixed.
+  - If evaluation_strategy = "Statistical Model Diagnostics",
+    effect_size_reported must be only "Reported" or "Not reported".
 
   ---------------------------------------------------
   STEP 6 - ASSUMPTION CHECKS
@@ -150,11 +176,19 @@ instructions: |
 
       assumption_checks_reported = "Not applicable"
 
+  Label validity rule:
+  - "Not applicable" is allowed only for Machine Learning or Mixed.
+  - If evaluation_strategy = "Statistical Model Diagnostics",
+    assumption_checks_reported must be only "Reported" or "Not reported".
+
   ---------------------------------------------------
   STEP 7 - CITATION ENFORCEMENT
   ---------------------------------------------------
 
   Every claim in reasoning must include evidence citations.
+  Cite multiple evidence ids when available; target 8-10 citations when
+  sufficient evidence exists.
+  Use citation format [id], e.g., [1][3][8].
 
   Example:
 
@@ -174,6 +208,9 @@ instructions: |
   - direct_quote
 
   Include only evidence actually cited in the reasoning.
+  Prefer 8-10 bibliography entries when sufficient relevant evidence is
+  available; otherwise include all available cited evidence.
+  Do not return an empty bibliography if relevant evidence is present.
 
   ---------------------------------------------------
   OUTPUT FORMAT

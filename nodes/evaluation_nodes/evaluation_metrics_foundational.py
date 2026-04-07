@@ -59,6 +59,23 @@ def _as_list(value) -> list:
     return [value]
 
 
+def _normalize_bibliography(value) -> list:
+    if not isinstance(value, list):
+        return []
+
+    normalized = []
+    for item in value:
+        if not isinstance(item, dict):
+            continue
+        normalized.append({
+            "id": item.get("id", ""),
+            "page": item.get("page", ""),
+            "section": item.get("section", ""),
+            "direct_quote": item.get("direct_quote", ""),
+        })
+    return normalized
+
+
 # =====================================================
 # FOUNDATIONAL EVALUATION METRICS NODE
 # =====================================================
@@ -183,6 +200,31 @@ def evaluation_metrics_foundational_node(state: DSRPState):
 
     if not isinstance(output_payload, dict):
         output_payload = {}
+
+    classifier_reasoning = ""
+    classifier_bibliography = []
+    if isinstance(classification_json, dict):
+        classifier_reasoning = str(classification_json.get("reasoning", "")).strip()
+        classifier_bibliography = _normalize_bibliography(
+            classification_json.get("bibliography", [])
+        )
+
+    audited_reasoning = str(output_payload.get("reasoning", "")).strip()
+    audited_bibliography = _normalize_bibliography(output_payload.get("bibliography", []))
+
+    # Ensure citation traceability survives auditing even when the audit output is sparse.
+    if not audited_reasoning and classifier_reasoning:
+        output_payload["reasoning"] = classifier_reasoning
+    else:
+        output_payload["reasoning"] = audited_reasoning
+
+    if not audited_bibliography and classifier_bibliography:
+        output_payload["bibliography"] = classifier_bibliography
+    else:
+        output_payload["bibliography"] = audited_bibliography
+
+    output_payload["validated_reasoning"] = output_payload.get("reasoning", "")
+    output_payload["validated_bibliography"] = output_payload.get("bibliography", [])
 
     # Evaluation strategy must follow modelling paradigm.
     output_payload["evaluation_strategy"] = _strategy_from_paradigm(foundational_paradigm)

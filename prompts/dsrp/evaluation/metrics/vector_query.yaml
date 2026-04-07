@@ -19,7 +19,17 @@ query: >
   ERGM goodness-of-fit for network analysis, and AUROC, IoU, Dice, SDR, or
   SIR for emerging modalities.
 
+  Validation procedure clues:
+  - train/test split: separate subsets for training and final testing
+    (e.g., 80/20 split)
+  - cross-validation: repeated fold-based training/testing
+    (e.g., 5-fold or 10-fold cross-validation)
+  - hold-out dataset: reserved evaluation set not used in model fitting
+    (e.g., untouched external validation set)
+  - temporal split: train on earlier periods and test on later periods
+    (e.g., out-of-time (OOT) test set)
+
   Focus only on evaluation procedures applied to the models or analytical
   approaches used in the current study.
 
-k: 12
+k: 20
