@@ -37,6 +37,67 @@ instructions: |
     • literature review discussions
     • methodological or analytical frameworks
     • machine learning or data science frameworks
+    • General references to "theory" without specific application
+
+  CRITICAL RULE:
+    Explicit theory = Yes 
+      ONLY if a named theory directly determines
+      hypotheses, variables, or model structure.
+
+      A theory mentioned ONLY in the introduction or literature review
+      does NOT count as explicit theory.
+
+      If a theory is mentioned but not used in modelling or variable
+      construction → Explicit Theory = No.
+
+   GENERALIZED THEORY RULE:
+    Explicit theory exists if a named theory is used to STRUCTURE the study.
+
+    This includes cases where theory determines:
+
+      • model structure
+      • objective function or optimization logic
+      • constraints or trade-off relationships
+      • decision criteria or evaluation metrics
+
+    This is NOT limited to hypotheses or variables.
+
+    Theory embedded in models (e.g., economic, decision, optimization theories)
+    counts as explicit theory EVEN IF no hypotheses are present.
+
+   Variable Selection Trap:
+    Using prior literature or “theoretical basis” to justify variable
+    selection does NOT count as explicit theory.
+
+    If theory is used only to motivate or justify variables,
+    but does not structure the model, hypotheses, or relationships
+    → Explicit Theory = No.
+
+   Misleading Signals:
+    Statements such as “we hypothesize”, “we conjecture”, or
+    “we expect” do NOT imply explicit theory unless they are
+    clearly derived from a named theory.
+
+   Require Theory Centrality:
+    Explicit theory requires a central theoretical framework.
+
+    If multiple disconnected concepts from literature are used
+    without a unifying theory → Explicit Theory = No.
+
+   SPECIAL CASE — DECISION / OPTIMIZATION / ECONOMIC MODELS:
+    If a named theory (e.g., Modern Portfolio Theory, utility theory, game theory, decision theory)
+    is used to:
+
+      • define the objective function
+      • structure optimization logic
+      • determine trade-offs or constraints
+      • guide decision metrics
+
+    → Explicit Theory = Yes
+
+    This applies EVEN IF:
+      • no hypotheses are present
+      • the study is computational or algorithmic
 
   Output:
 
@@ -61,6 +122,23 @@ instructions: |
   • Do NOT infer implicit theory from general discussion
   • If the study is purely technical or method-focused,
     classify as "No"
+
+  CRITICAL RULE:
+    Implicit theory = Yes 
+      Implicit theory = Yes if results are explained using
+      real-world mechanisms (economic, behavioural, or social reasoning).
+
+      Do NOT require formal theory for implicit classification.
+
+  CO-EXISTENCE RULE:
+
+    Explicit theory and implicit theory are NOT mutually exclusive.
+
+    If:
+      • theory structures the model (explicit), AND
+      • results are interpreted using real-world reasoning
+
+    → BOTH should be marked Yes
 
   Output:
 
@@ -127,6 +205,9 @@ instructions: |
 
   Every claim must cite evidence using [id].
 
+  Use citation format [id], e.g., [1][3][8].
+  When sufficient evidence exists, target 8-10 citations.
+
   Bibliography Integrity Rule:
 
   Each item must include:
@@ -135,6 +216,11 @@ instructions: |
     page
     section
     direct_quote
+
+  Include only evidence actually cited in the reasoning.
+  Prefer 8-10 bibliography entries when sufficient relevant evidence is
+  available; otherwise include all available cited evidence.
+  Do not return an empty bibliography if relevant evidence is present.
 
   ---------------------------------------------------
   OUTPUT FORMAT

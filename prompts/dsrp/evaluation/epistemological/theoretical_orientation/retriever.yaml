@@ -31,6 +31,31 @@ instructions: |
 
   3. Preserve the exact wording of the text.
 
+  4. Return 9-10 high-quality evidence items when sufficient relevant
+      evidence is available; otherwise return as many valid items as you
+      can without adding duplicates.
+
+  5. Prefer diverse evidence across pages/sections and avoid duplicates.
+
+  6. Prioritisation - Structural Theory Usage:
+    Prioritize extracting passages where theory is OPERATIONALIZED
+    in the study design or model.
+
+      Strong signals include:
+
+        • objective function definitions
+        • equations or formal model specifications
+        • optimization logic or decision rules
+        • constraints or trade-off structures
+        • statements describing how theory determines model behaviour
+
+      These are STRONGER evidence than:
+
+        • conceptual discussions
+        • literature review mentions
+        • "theoretical implications" statements
+
+
   Return ONLY valid JSON:
 
   {
